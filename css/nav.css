@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+nav ul li:first-of-type {
+    display: flex;
+    flex-flow: row;
+    gap: 0.5rem;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    background-image: url(../images/logos/titan-black.webp);
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

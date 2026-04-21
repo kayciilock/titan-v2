@@ -3,5 +3,22 @@
     flex-flow: row;
     width: 100%;
     align-items: center;
+}
+
+.index.hero .flex-row {
     justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    gap: 1.5rem;
+}
+
+.row.top-text {
+    gap: 10rem;
+}
+
+.center {
+    align-items: center;
 }

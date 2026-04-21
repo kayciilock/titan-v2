@@ -1,8 +1,6 @@
 section {
     display: flex;
+    flex-flow: column;
     justify-content: center;
-}
-
-.nav {
-    border-bottom: 1px solid #d1d1d1;
+    align-items: center;
 }

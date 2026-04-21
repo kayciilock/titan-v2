@@ -9,6 +9,7 @@ h4,
 h5,
 p {
     margin: 0;
+    color: #ffffff;
 }
 
 h1 {
@@ -34,4 +35,9 @@ h3 {
 p {
     font-size: 1em;
     line-height: 1.5;
+}
+
+.dropdown-arrow {
+    color: #ffffff;
+    margin-bottom: 0.05rem;
 }

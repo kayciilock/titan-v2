@@ -3,3 +3,19 @@
     height: 1px;
     background-color: #E0E0E0;
 }
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #E0E0E0;
+}
+
+.separator.cut {
+    background: linear-gradient(
+        to right, 
+        #060606 0%,
+        #E0E0E0 20%,
+        #E0E0E0 80%,
+        #060606 100%
+    );
+}

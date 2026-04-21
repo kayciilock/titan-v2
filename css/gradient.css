@@ -1,0 +1,11 @@
+.black-float-gradient {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+  width: 100vw;
+  height: 200px;
+  z-index: 2;
+  background: #060606;
+  filter: blur(20px);
+  pointer-events: none;
+}

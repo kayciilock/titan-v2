@@ -4,3 +4,11 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+section.intro {
+    background-color: #060606;
+}
+
+section.info {
+    background-color: #ffffff;
+}

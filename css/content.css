@@ -1,0 +1,65 @@
+.fact {
+    position: relative;
+    aspect-ratio: 1/1;
+    padding-left: 1rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+    padding-top: 2rem;
+}
+
+.fact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(
+        to bottom, 
+        #060606 0%,
+        #fff 20%,
+        #fff 80%,
+        #060606 100%
+    );
+    pointer-events: none;
+}
+
+.fact:last-child::after {
+  display: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+    z-index: 2;
+}
+
+.icon.weight {
+    background-image: url(../images/icons/weight.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon.cycle {
+    background-image: url(../images/icons/cycle.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon.steel {
+    background-image: url(../images/icons/steel.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}        
+
+.icon.bend {
+    background-image: url(../images/icons/bend.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

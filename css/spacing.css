@@ -1,0 +1,17 @@
+.margin-vert {
+    margin: 4rem 0;
+}
+
+.margin-vert-big {
+    margin: 8rem 0;
+}
+
+.content-space {
+    display: flex;
+    flex-flow: column;
+    gap: 4rem;
+}
+
+.margin-top-2 {
+    margin-top: 2rem;
+}

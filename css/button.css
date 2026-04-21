@@ -1,0 +1,13 @@
+.btn {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #6e6e6e;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-radius: 4rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

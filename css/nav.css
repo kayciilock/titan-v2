@@ -7,14 +7,16 @@ nav {
     color: #ffffff;
 }
 
-nav ul {
+nav ul,
+footer ul {
     display: flex;
     flex-flow: row;
     gap: 2rem;
     padding-left: 0;
 }
 
-nav ul li {
+nav ul li,
+footer ul li {
     list-style: none;
     border-bottom: 1px solid transparent;
     cursor: pointer;
@@ -22,7 +24,8 @@ nav ul li {
     transition: border-bottom 0.2s ease-in-out;
 }
 
-nav ul li:first-of-type {
+nav ul li:first-of-type,
+footer ul li:first-of-type {
     display: flex;
     flex-flow: row;
     gap: 0.5rem;
@@ -30,6 +33,10 @@ nav ul li:first-of-type {
 
 nav ul li:hover {
     border-bottom: 1px solid #ffffff;
+}
+
+footer ul li:hover {
+    border-bottom: 1px solid #060606;
 }
 
 .logo {
@@ -42,6 +49,10 @@ nav ul li:hover {
     background-repeat: no-repeat;
 }
 
+.logo.dark {
+    background-image: url(../images/logos/titan-black.webp);
+}
+
 .hamburger-dropdown {
     background-image: url(../images/icons/hamburger-light.webp);
     display: none;
@@ -50,4 +61,15 @@ nav ul li:hover {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.powered-by {
+    text-align: end;
+    transition: color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+    font-weight: 400;
+}
+
+.powered-by:hover {
+    color: #555555;
+    font-weight: 500;
 }

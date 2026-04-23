@@ -42,6 +42,10 @@ p {
     margin-bottom: 0.05rem;
 }
 
+footer .dropdown-arrow {
+    color: #060606;
+}
+
 .right-arrow {
     color: #ffffff;
     font-size: 1.5em;
@@ -72,4 +76,29 @@ section.info p {
 
 b {
     font-weight: bold;
+}
+
+section.features p,
+section.features h1,
+section.features h2,
+section.features h3,
+section.features h4 {
+    color: #060606;
+}
+
+section.products p,
+section.products h1,
+section.products h2,
+section.products h3,
+section.products h4 {
+    color: #060606;
+}
+
+.text-center {
+    text-align: center
+}
+
+.base.dark h4 {
+    color: #ffffff;
+    font-weight: 400;
 }

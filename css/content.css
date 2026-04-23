@@ -34,38 +34,118 @@
     height: 50px;
     margin-bottom: 0.5rem;
     z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon.weight {
     background-image: url(../images/icons/weight.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon.cycle {
     background-image: url(../images/icons/cycle.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon.steel {
     background-image: url(../images/icons/steel.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }        
 
 .icon.bend {
     background-image: url(../images/icons/bend.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+.icon.ruler {
+    background-image: url(../images/icons/ruler-dark.webp);
+}
+
+.icon.boat {
+    background-image: url(../images/icons/boat-dark.webp);
+}
+
+.icon.aesthetic {
+    background-image: url(../images/icons/aesthetic-dark.webp);
+}
+
+.icon.tool {
+    background-image: url(../images/icons/tool-dark.webp);
+}
+
+.icon.builder {
+    background-image: url(../images/icons/builder-dark.webp);
+}
+
+.icon.roller {
+    background-image: url(../images/icons/roller-dark.webp);
 }
 
 .point {
     display: flex;
     flex-flow: row;
     gap: 0.75rem;
+}
+
+.point.col {
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid #dadada;
+    padding: 1rem;
+    aspect-ratio: 1/1;
+    background-color: #eeeeee3f;
+}
+
+.product {
+    aspect-ratio: 4/3;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6rem;
+    background-color: #f0f0f080;
+    border: 1px solid #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.product.top-pivot {
+    background-image: url(../images/products/3904-072.webp);
+}
+
+.product.bottom-pivot {
+    background-image: url(../images/products/3908-072.webp);
+}
+
+.product.twin-point {
+    background-image: url(../images/products/5223.webp);
+}
+
+.product.centreline-hinge {
+    background-image: url(../images/products/3910-073.webp);
+}
+
+.product.end-carrier {
+    background-image: url(../images/products/3914-078.webp);
+}
+
+.product.empty {
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: none;
+}
+
+.base.dark {
+    background-color: #41414152;
+    padding: 1rem 1rem 1rem 2rem;
+    min-width: 8rem;
+    text-align: right;
+    width: fit-content;
 }

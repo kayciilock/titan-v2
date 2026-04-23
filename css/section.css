@@ -12,3 +12,11 @@ section.intro {
 section.info {
     background-color: #ffffff;
 }
+
+footer {
+    border-top: 1px solid #b9b9b9;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

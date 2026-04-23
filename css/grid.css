@@ -21,3 +21,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.three-col-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.half {
+    width: 50%;
+}

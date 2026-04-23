@@ -11,3 +11,8 @@
     align-items: center;
     gap: 1rem;
 }
+
+.btn.filled {
+    background-color: #6e6e6e;
+    color: #ffffff;
+}

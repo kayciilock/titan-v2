@@ -2,7 +2,12 @@
     display: flex;
     flex-flow: row;
     width: 100%;
-    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
 }
 
 .index.hero .flex-row {
@@ -27,6 +32,7 @@
 
 .center {
     align-items: center;
+    justify-content: center;
 }
 
 .align-flex-end  {

@@ -5,3 +5,7 @@
     margin: 0 auto;
     padding: 0 4rem;
 }
+
+.max-800 {
+    max-width: 800px;
+}

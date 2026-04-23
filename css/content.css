@@ -63,3 +63,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.point {
+    display: flex;
+    flex-flow: row;
+    gap: 0.75rem;
+}

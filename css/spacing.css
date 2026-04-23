@@ -6,12 +6,25 @@
     margin: 8rem 0;
 }
 
+.margin-vert-int {
+    margin: 8rem 0 4rem 0
+}
+
 .content-space {
     display: flex;
     flex-flow: column;
     gap: 4rem;
+    overflow: hidden;
+}
+
+.margin-1 {
+    margin: 1rem 0;
 }
 
 .margin-top-2 {
     margin-top: 2rem;
+}
+
+.dual-grid.gap-4 {
+    gap: 4rem;
 }

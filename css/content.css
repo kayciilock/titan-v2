@@ -79,6 +79,18 @@
     background-image: url(../images/icons/roller-dark.webp);
 }
 
+.icon.push {
+    background-image: url(../images/icons/push.webp);
+}
+
+.icon.material {
+    background-image: url(../images/icons/material.webp);
+}
+
+.icon.versatile {
+    background-image: url(../images/icons/versatile.webp);
+}
+
 .point {
     display: flex;
     flex-flow: row;
@@ -148,4 +160,53 @@
     min-width: 8rem;
     text-align: right;
     width: fit-content;
+}
+
+.dark-grey {
+    background-color: #535353;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    padding: 4rem 8rem;
+    padding-right: 2rem;
+    justify-self: flex-end;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.right.dom-grid .sect-1,
+.right.dom-grid .sect-2,
+.left.dom-grid .sect-1,
+.left.dom-grid .sect-2 {
+    padding: 4rem;
+    box-sizing: border-box;
+    background-color: #9c9c9c;
+}
+
+.drawings {
+    border: 1px solid #d3d3d3;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.view {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+    aspect-ratio: 4/3;
+    padding: 2rem;
+}
+
+.view.aluminium {
+    background-image: url(../images/drawings/alu.webp);
+}
+
+.view.timber {
+    background-image: url(../images/drawings/timber.webp);
 }

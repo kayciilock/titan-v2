@@ -8,19 +8,31 @@
 }
 
 .big-logo {
-    width: 700px;
-    height: 200px;
+    max-width: 700px;
+    max-height: 200px;
 }
 
-.index.hero {
+.big-logo img {
+    width: 100%;
+}
+
+.hero {
     position: relative;
-    background-image: url(../images/hero/index.webp);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1; 
 }
 
-.index.hero::before {
+.index.hero {
+    background-image: url(../images/hero/index.webp);
+}
+
+.t100-bifolds.hero {
+    background-image: url(../images/hero/t100.webp);
+}
+
+.index.hero::before,
+.t100-bifolds.hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -35,8 +47,12 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    gap: 8rem;
+    gap: 2rem;
     align-items: flex-start;
+}
+
+.hero.index-pg.content {
+    gap: 8rem;
 }
 
 .dropdown .entry {

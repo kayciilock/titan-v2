@@ -70,12 +70,26 @@ footer .dropdown-arrow {
     color: #060606;
 }
 
+.med-text {
+    font-weight: 500;
+    font-size: 3em;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
 section.info p {
     color: #060606;
 }
 
 b {
     font-weight: bold;
+}
+
+section.integrations p,
+section.integrations h1,
+section.integrations h3,
+section.integrations h4 {
+    color: #060606;
 }
 
 section.features p,
@@ -86,11 +100,29 @@ section.features h4 {
     color: #060606;
 }
 
+section.system-drawings p,
+section.system-drawings h1,
+section.system-drawings h2,
+section.system-drawings h3,
+section.system-drawings h4 {
+    color: #060606;
+}
+
 section.products p,
 section.products h1,
 section.products h2,
 section.products h3,
-section.products h4 {
+section.products h4,
+section.grey p {
+    color: #060606;
+}
+
+section.hardware-configurator p,
+section.hardware-configurator h1,
+section.hardware-configurator h2,
+section.hardware-configurator h3,
+section.hardware-configurator h4,
+section.grey p {
     color: #060606;
 }
 
@@ -101,4 +133,30 @@ section.products h4 {
 .base.dark h4 {
     color: #ffffff;
     font-weight: 400;
+}
+
+footer p{
+    color: #9c9c9c;
+}
+
+.left-indent {
+    padding-left: 0.5rem;
+}
+
+.hero-text {
+    font-size: 6em;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.padding-right-4 {
+    padding-right: 4rem;
+}
+
+.left.dom-grid h2
+.right.dom-grid h2,
+.left.dom-grid p,
+.right.dom-grid p {
+    color: #ffffff;
 }

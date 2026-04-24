@@ -32,9 +32,13 @@
 
 .center {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .align-flex-end  {
     align-self: flex-end;
+}
+
+.dual-grid.align-items-start {
+    align-items:flex-start;
 }

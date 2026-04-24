@@ -25,6 +25,22 @@
     margin-top: 2rem;
 }
 
+.margin-top-4 {
+    margin-top: 4rem;
+}
+
 .dual-grid.gap-4 {
     gap: 4rem;
+}
+
+.gap-small {
+    gap: .5rem;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margin-bot-8 {
+    margin-bottom: 8rem;
 }

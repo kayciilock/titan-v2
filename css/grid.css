@@ -6,12 +6,17 @@
     justify-content: center;
 }
 
+.dual-grid.left-dom {
+    grid-template-columns: 3fr 2fr;
+}
+
 .four-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .dual-col-grid {
@@ -33,3 +38,24 @@
 .half {
     width: 50%;
 }
+
+.dom-grid {
+    display: grid;
+    gap: 2rem;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1800px;
+}
+
+.right.dom-grid {
+    grid-template-columns: 0.5fr 1.5fr;
+    text-align: left;
+}
+
+.left.dom-grid {
+    grid-template-columns: 1.5fr 0.5fr;
+    text-align: right;
+}
+

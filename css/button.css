@@ -2,17 +2,38 @@
     color: #ffffff;
     background-color: transparent;
     border: 1px solid #6e6e6e;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
     border-radius: 0.5rem;
     cursor: pointer;
     border-radius: 4rem;
     width: fit-content;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.btn-container button {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn.filled {
     background-color: #6e6e6e;
     color: #ffffff;
+}
+
+.btn.width-100 {
+    width: 100%;
+}
+
+.btn.dark-text {
+    color: #060606;
 }

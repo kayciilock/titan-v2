@@ -59,3 +59,22 @@
     text-align: right;
 }
 
+.semi-dom-grid {
+    display: grid;
+    gap: 2rem;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1800px;
+}
+
+.right.semi-dom-grid {
+    grid-template-columns: 0.475fr 1.575fr;
+    text-align: left;
+}
+
+.left.semi-dom-grid {
+    grid-template-columns: 1.575fr 0.475fr;
+    text-align: right;
+}

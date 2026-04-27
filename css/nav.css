@@ -39,6 +39,10 @@ footer ul li:hover {
     border-bottom: 1px solid #060606;
 }
 
+li.active {
+    color: rgb(11, 245, 31);
+}
+
 .logo {
     background-image: url(../images/logos/titan-white.webp);
     display: flex;
@@ -71,5 +75,15 @@ footer ul li:hover {
 
 .powered-by:hover {
     color: #555555;
+    font-weight: 500;
+}
+
+.powered-by.light {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.powered-by.light:hover {
+    color: #adadad;
     font-weight: 500;
 }

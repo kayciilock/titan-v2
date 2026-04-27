@@ -11,6 +11,12 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #6e6e6e;
 }
 
 .btn-container {
@@ -30,10 +36,29 @@
     color: #ffffff;
 }
 
+.btn.filled:hover {
+    background-color: #585858;
+    border: 1px solid #585858;
+}
+
 .btn.width-100 {
     width: 100%;
 }
 
 .btn.dark-text {
     color: #060606;
+}
+
+.circle {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 1px solid #6e6e6e;
+    aspect-ratio: 1/1;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 400;
 }

@@ -41,6 +41,18 @@
     width: 100%;
 }
 
+.margin-bot-2 {
+    margin-bottom: 2rem;
+}
+
+.margin-bot-4 {
+    margin-bottom: 4rem;
+}
+
 .margin-bot-8 {
     margin-bottom: 8rem;
+}
+
+.space-between {
+    justify-content: space-between;
 }

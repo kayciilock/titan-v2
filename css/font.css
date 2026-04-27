@@ -160,3 +160,11 @@ footer p{
 .right.dom-grid p {
     color: #ffffff;
 }
+
+.white-text {
+    color: #ffffff;
+}
+
+.text-start {
+    text-align: left;
+}

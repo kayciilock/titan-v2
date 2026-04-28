@@ -62,3 +62,22 @@
     font-size: 2em;
     font-weight: 400;
 }
+
+.btn.filled.light {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+}
+
+.btn.filled.light:hover {
+    background-color: rgb(29, 29, 29);
+    color: #ffffff;
+    border: 1px solid #292929;
+}

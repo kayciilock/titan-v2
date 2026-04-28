@@ -14,17 +14,17 @@ p {
 
 h1 {
     font-weight: 600;
-    font-size: 2.25em;
-}
-
-h2 {
-    font-weight: 500;
     font-size: 2em;
 }
 
 h2 {
     font-weight: 500;
     font-size: 1.75em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -64,6 +64,10 @@ footer .dropdown-arrow {
     font-size: 4em;
     color: #ffffff;
     line-height: 1.1;
+}
+
+.big-text.bolder {
+    font-weight: 600;
 }
 
 .big-text.dark {
@@ -163,6 +167,10 @@ footer p{
 
 .white-text {
     color: #ffffff;
+}
+
+.dark-text {
+    color: #060606;
 }
 
 .text-start {

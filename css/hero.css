@@ -47,12 +47,22 @@
     background-image: url(../images/hero/design-inspiration.webp);
 }
 
+.about-titan.hero {
+    background-image: url(../images/hero/about-titan.webp);
+}
+
+.titan-sliders.hero {
+    background-image: url(../images/hero/titan-sliders.webp);
+}
+
 .index.hero::before,
 .t100-bifolds.hero::before,
 .a100-bifolds.hero::before,
 .t350-sliders.hero::before,
 .platform-integrated-bifolds.hero::before,
-.design-inspirations.hero::before {
+.design-inspirations.hero::before,
+.about-titan.hero::before,
+.titan-sliders.hero::before {
     content: "";
     position: absolute;
     top: 0;

@@ -14,7 +14,7 @@
     display: flex;
     flex-flow: column;
     gap: 4rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .margin-1 {
@@ -37,8 +37,20 @@
     gap: .5rem;
 }
 
+.gap-4 {
+    gap: 4rem;
+}
+
+.dual-grid.gap-none {
+    gap: 0;
+}
+
 .width-100 {
     width: 100%;
+}
+
+.width-100vw {
+    width: 100vw;
 }
 
 .margin-bot-2 {

@@ -10,7 +10,7 @@ let allProducts = [];
 
 async function loadProducts() {
     try {
-        const response = await fetch('../json/titan.collection.json');
+        const response = await fetch('json/titan.collection.json');
         if (!response.ok) throw new Error("Failed to load JSON");
         
         allProducts = await response.json();

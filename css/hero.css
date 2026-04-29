@@ -55,6 +55,10 @@
     background-image: url(../images/hero/titan-sliders.webp);
 }
 
+.doorware.hero {
+    background-image: url(../images/hero/doorware.webp);
+}
+
 .index.hero::before,
 .t100-bifolds.hero::before,
 .a100-bifolds.hero::before,
@@ -62,7 +66,8 @@
 .platform-integrated-bifolds.hero::before,
 .design-inspirations.hero::before,
 .about-titan.hero::before,
-.titan-sliders.hero::before {
+.titan-sliders.hero::before,
+.doorware.hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -159,4 +164,11 @@
   right: 20%;
   rotate: calc(-25deg);
   width: 20%;
+}
+
+.big-family-img {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  width: 50%;
 }

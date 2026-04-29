@@ -1,0 +1,138 @@
+[
+    {
+        "id": "2921-013",
+        "title": "Heavy Duty Top Track",
+        "description": "A robust overhead track designed to support and guide heavy panels, delivering smooth operation and lasting reliability for sliding or folding doors.",
+        "categories": ["t100"],
+        "image": "images/products/2921-013.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "2935-103",
+        "title": "Heavy Duty Top Track",
+        "description": "Provide stable, smooth guidance for heavy sliding or folding panels, ensuring long-term reliability in both residential and commercial settings.",
+        "categories": ["t100"],
+        "image": "images/products/2935-103.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "2936-013",
+        "title": "Aluminium Support Channel",
+        "description": "Provides sturdy structural support and alignment for door systems, ensuring stability and reliable performance in both sliding and folding applications.",
+        "categories": ["t100"],
+        "image": "images/products/2936-013.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "2970-071",
+        "title": "Mounting Bracket",
+        "description": "Securely anchor and support door system components, ensuring stable and reliable installation for both sliding and folding applications.",
+        "categories": ["t350"],
+        "image": "images/products/2970-071.webp",
+        "tags": ["T350"]
+    },
+    {
+        "id": "2971-071",
+        "title": "Bracket Assembly",
+        "description": "Secure attachment and structural support for door hardware components, enabling reliable and stable installation in sliding and folding door systems.",
+        "categories": ["t350"],
+        "image": "images/products/2971-071.webp",
+        "tags": ["T350"]
+    },
+    {
+        "id": "3099-071",
+        "title": "Straight Slider Track Stop",
+        "description": "Securely limit panel movement and ensure precise stopping points on straight slider tracks, enhancing the safety and functionality of sliding door systems.",
+        "categories": ["t350"],
+        "image": "images/products/3099-071.webp",
+        "tags": ["T350"]
+    },
+    {
+        "id": "3904-072",
+        "title": "TITAN Pivot Set - Top",
+        "description": "Stable pivot point for door panels, ensuring smooth and controlled movement at the top of sliding or folding door systems for reliable operation.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3904-072.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "3908-072",
+        "title": "TITAN Pivot Set",
+        "description": "Offers dependable pivot support for door panels, ensuring secure attachment and smooth motion in sliding or folding door systems.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3908-072.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "3910-073",
+        "title": "Bi-Fold Hinge Set - Centreline",
+        "description": "Designed to connect and align door panels along the centerline, providing smooth folding action and reliable performance in bifold door systems.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3910-073.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "3913-076",
+        "title": "Titan Intermediate Carrier Set - Bottom",
+        "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
+        "categories": ["t100"],
+        "image": "images/products/3913-076.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "3913-078",
+        "title": "Titan Intermediate Carrier Set - Bottom",
+        "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
+        "categories": ["t100"],
+        "image": "images/products/3913-078.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "3914-076",
+        "title": "Titan End Carrier Set - Bottom",
+        "description": "Securely support and guide the end panel of a bifold or sliding door system along the bottom track, ensuring smooth movement and reliable long-term performance.",
+        "categories": ["t100"],
+        "image": "images/products/3914-076.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "3914-078",
+        "title": "Titan End Carrier Set - Bottom",
+        "description": "Securely support and guide the end panel of a bifold or sliding door system along the bottom track, ensuring smooth movement and reliable long-term performance.",
+        "categories": ["t100"],
+        "image": "images/products/3914-078.webp",
+        "tags": ["T100"]
+    },
+    {
+        "id": "3920-073",
+        "title": "Bi-Fold Hinge Set - Offset",
+        "description": "Connect and align bifold door panels with an offset configuration, allowing for smooth folding action and reliable performance.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3920-073.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "3931-072",
+        "title": "Titan End Carrier Set - Top",
+        "description": "Provide secure support and guidance for end door panels at the top track, ensuring smooth sliding or folding operation and stable alignment within door systems.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3931-072.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "3933-072",
+        "title": "TITAN Intermediate Carrier Set - Top",
+        "description": "Support and guide intermediate door panels along the overhead track, delivering smooth, stable movement and reliable alignment in bifold or sliding door systems.",
+        "categories": ["t100", "a100"],
+        "image": "images/products/3933-072.webp",
+        "tags": ["T100", "A100"]
+    },
+    {
+        "id": "8295-071",
+        "title": "4 Wheel Carrier - MD/HD",
+        "description": "Heavy-Duty carrier designed to provide smooth and stable movement of door panels along the track, ensuring reliable operation in sliding or folding door systems.",
+        "categories": ["platform-integrated"],
+        "image": "images/products/8295-071.webp",
+        "tags": ["Platform Integrated Bifolds"]
+    }
+]

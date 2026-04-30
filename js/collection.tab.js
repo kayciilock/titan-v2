@@ -36,7 +36,7 @@ function renderCards(filter) {
                 <h3>${product.title}</h3>
                 <div class="small-text">${product.id}</div>
                 <div class="square">
-                    <img src="${product.image}" alt="${product.title}" class="product-img">
+                    <img loading="lazy" src="${product.image}" alt="${product.title}" class="product-img">
                 </div>
                 <p class="dark-text">${product.description}</p>
                 <div class="flex-row gap-small">

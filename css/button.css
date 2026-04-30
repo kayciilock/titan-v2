@@ -81,3 +81,17 @@
     color: #ffffff;
     border: 1px solid #292929;
 }
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+}
+
+.scroll-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    animation: bounce 2s infinite;
+}

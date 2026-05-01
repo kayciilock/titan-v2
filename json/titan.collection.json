@@ -3,136 +3,355 @@
         "id": "2921-013",
         "title": "Heavy Duty Top Track",
         "description": "A robust overhead track designed to support and guide heavy panels, delivering smooth operation and lasting reliability for sliding or folding doors.",
+        "longDescription": "The Heavy Duty Top Track delivers robust support and smooth operation for large sliding or folding panels, ensuring reliable performance and lasting durability in both residential and commercial applications.",
         "categories": ["t100"],
         "image": "images/products/2921-013.webp",
+        "finish": "Natural Anodised 20um",
+        "extrusionLength": "5800mm",
+        "weight": "8740g",
+        "material": "6063-T5",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/2921-013.webp"
+        ],
         "tags": ["T100"]
     },
     {
         "id": "2935-103",
-        "title": "Heavy Duty Top Track",
-        "description": "Provide stable, smooth guidance for heavy sliding or folding panels, ensuring long-term reliability in both residential and commercial settings.",
+        "title": "Bifold Poly Track Insert",
+        "description": "The Bifold Poly Track Insert is a durable polymer component designed to fit within the track of bifold door systems, providing a smooth, low-friction surface for rollers and carriers.",
+        "longDescription": "The Bifold Poly Track Insert is engineered to enhance the performance and longevity of bifold door systems by offering a resilient, low-wear running surface. Constructed from high-quality polymer, this insert is designed to minimize noise and friction, ensuring that door panels glide smoothly and quietly along the track. Easy to install, the Poly Track Insert also helps protect the underlying track from wear and damage, making it a valuable addition for both new installations and retrofits in residential or commercial settings.",
         "categories": ["t100"],
         "image": "images/products/2935-103.webp",
+        "finish": "Black",
+        "weight": "537g/Length",
+        "material": "Polymer",
+        "lengthValue": "5800mm",
+        "features": [
+        "High-quality polymer construction for durability and reduced wear",
+        "Minimizes friction and allows smooth, quiet door panel movement",
+        "Protects aluminium or metal track surfaces from scratches and damage"
+        ],
+        "drawings": [
+            "images/drawings/2935-103.webp"
+        ],
         "tags": ["T100"]
     },
     {
         "id": "2936-013",
         "title": "Aluminium Support Channel",
         "description": "Provides sturdy structural support and alignment for door systems, ensuring stability and reliable performance in both sliding and folding applications.",
+        "longDescription": "The Aluminium Support Channel delivers reliable structural support for door and window installations. Crafted from high-quality aluminium, it helps prevent warping and misalignment while remaining lightweight, easy to install, and highly resistant to corrosion. Suitable for both residential and commercial applications, this channel ensures the integrity and smooth operation of sliding or folding systems.",
         "categories": ["t100"],
         "image": "images/products/2936-013.webp",
+        "finish": "Clear Anodised",
+        "material": "6063-T5",
+        "weight": "1593g/Length",
+        "lengthValue": "5800mm",
+        "features": [
+        "Helps maintain alignment and prevents sagging or warping",
+        "Suitable for both new construction and retrofit applications",
+        "Provides structural reinforcement for door and window systems"
+        ],
+        "drawings": [
+            "images/drawings/2936-013.webp"
+        ],
         "tags": ["T100"]
     },
     {
         "id": "2970-071",
         "title": "Mounting Bracket",
         "description": "Securely anchor and support door system components, ensuring stable and reliable installation for both sliding and folding applications.",
+        "longDescription": "This mounting bracket is specifically engineered for use with the 4 Wheel Carrier in top-hung sliding door systems. Its robust construction and precision manufacturing ensure secure attachment of carriers to the overhead track or structural support, providing stable and smooth operation for medium to heavy-duty sliding doors. Suitable for various commercial and industrial applications.",
         "categories": ["t350"],
         "image": "images/products/2970-071.webp",
+        "material": "SS",
+        "usedWith": "8295-071",
+        "features": [
+        "Compatible with 4 Wheel Carrier for top-hung sliding door systems",
+        "Heavy-duty design supporting substantial loads",
+        "Supports efficient alignment and smooth sliding door motion"
+        ],
+        "drawings": [
+            "images/drawings/2970-071.webp"
+        ],
         "tags": ["T350"]
     },
     {
         "id": "2971-071",
         "title": "Bracket Assembly",
         "description": "Secure attachment and structural support for door hardware components, enabling reliable and stable installation in sliding and folding door systems.",
+        "longDescription": "This bracket assembly is designed for secure installation and reliable support of the 4 Wheel Carrier – MD/HD within top-hung sliding door systems. Built for both medium- and heavy-duty applications, the assembly offers robust performance and consistent alignment, making it ideal for commercial, industrial, and residential sliding door installations. The precision-engineered components ensure seamless integration with sliding system hardware, providing smooth and stable operation.",
         "categories": ["t350"],
         "image": "images/products/2971-071.webp",
+        "material": "SS",
+        "usedWith": "8295-071",
+        "features": [
+        "Specially designed for use with the 4 Wheel Carrier – MD/HD in top-hung sliding systems",
+        "Allows flexible positioning and alignment of carriers and tracks"
+        ],
+        "drawings": [
+            "images/drawings/2971-071.webp"
+        ],
         "tags": ["T350"]
     },
     {
         "id": "3099-071",
         "title": "Straight Slider Track Stop",
         "description": "Securely limit panel movement and ensure precise stopping points on straight slider tracks, enhancing the safety and functionality of sliding door systems.",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "categories": ["t350"],
         "image": "images/products/3099-071.webp",
+        "material": "SS",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3099-071.webp"
+        ],
         "tags": ["T350"]
     },
     {
         "id": "3904-072",
         "title": "TITAN Pivot Set - Top",
         "description": "Stable pivot point for door panels, ensuring smooth and controlled movement at the top of sliding or folding door systems for reliable operation.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3904-072.webp",
+        "loadRating": "HD 100KG | SD 50KG",
+        "finish": "Stainless Brushed",
+        "features": [
+        "Heavy / standard-duty bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3904-072.webp",
+            "images/drawings/3904-072-2.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "3908-072",
-        "title": "TITAN Pivot Set",
+        "title": "TITAN Bottom Pivot Set",
         "description": "Offers dependable pivot support for door panels, ensuring secure attachment and smooth motion in sliding or folding door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3908-072.webp",
+        "finish": "Stainless Brushed",
+        "guidePitch": "18.5 | 31.5 | 33.5",
+        "features": [
+        "Easy installation and adjustment",
+        "Removing or adding packers to change bottom pivot width",
+        "18.5, 31.5, 33.5mm pitch adaptor supplied together"
+        ],
+        "drawings": [
+            "images/drawings/3908-072.webp",
+            "images/drawings/3908-072-2.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "3910-073",
-        "title": "Bi-Fold Hinge Set - Centreline",
+        "title": "Titan 3 Leaf Centreline Hinge Set with Handle",
         "description": "Designed to connect and align door panels along the centerline, providing smooth folding action and reliable performance in bifold door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3910-073.webp",
+        "finish": "Lorem",
+        "features": [
+        "Sleek Bearing and robust construction",
+        "Stainless Steel thrust bearing for smooth operation at high loads (only part of Titan SD [Stainless Steel] and HD systems)"
+        ],
+        "drawings": [
+            "images/drawings/3910-073.webp",
+            "images/drawings/3910-073-2.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "3913-076",
         "title": "Titan Intermediate Carrier Set - Bottom",
         "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100"],
         "image": "images/products/3913-076.webp",
+        "guidePitch": "18.5",
+        "wheel": "16",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Stainless steel finish"
+        ],
+        "drawings": [
+            "images/drawings/3913-076.webp",
+            "images/drawings/3913-076-2.webp"
+        ],
         "tags": ["T100"]
     },
     {
         "id": "3913-078",
         "title": "Titan Intermediate Carrier Set - Bottom",
         "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100"],
         "image": "images/products/3913-078.webp",
-        "tags": ["T100"]
+        "guidePitch": "31.5",
+        "wheel": "22",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3913-076.webp",
+            "images/drawings/3913-076-2.webp"
+        ],
+        "tags": ["A100"]
+    },
+    {
+        "id": "3913-080",
+        "title": "Titan Intermediate Carrier Set - Bottom",
+        "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
+        "categories": ["t100"],
+        "image": "images/products/3913-078.webp",
+        "guidePitch": "33.5",
+        "wheel": "26",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3913-076.webp",
+            "images/drawings/3913-076-2.webp"
+        ],
+        "tags": ["A100"]
     },
     {
         "id": "3914-076",
         "title": "Titan End Carrier Set - Bottom",
         "description": "Securely support and guide the end panel of a bifold or sliding door system along the bottom track, ensuring smooth movement and reliable long-term performance.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100"],
         "image": "images/products/3914-076.webp",
+        "guidePitch": "18.5",
+        "wheel": "16",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Heavy duty pin with virtually no aesthetic imperfections when installed"
+        ],
+        "drawings": [
+            "images/drawings/3914-076.webp",
+            "images/drawings/3914-076-2.webp"
+        ],
         "tags": ["T100"]
     },
     {
-        "id": "3914-078",
+        "id": "3914-080",
         "title": "Titan End Carrier Set - Bottom",
         "description": "Securely support and guide the end panel of a bifold or sliding door system along the bottom track, ensuring smooth movement and reliable long-term performance.",
-        "categories": ["t100"],
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "categories": ["a100"],
         "image": "images/products/3914-078.webp",
-        "tags": ["T100"]
+        "guidePitch": "33.5",
+        "wheel": "26",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3914-076.webp",
+            "images/drawings/3914-076-2.webp"
+        ],
+        "tags": ["A100"]
     },
     {
         "id": "3920-073",
-        "title": "Bi-Fold Hinge Set - Offset",
+        "title": "Titan 3 Leaf Offset Hinge Set with Handle",
         "description": "Connect and align bifold door panels with an offset configuration, allowing for smooth folding action and reliable performance.",
+        "longDescription": "The Titan 3 Leaf Offset Hinge Set with Handle is a durable, heavy-duty hinge designed for doors needing secure, reliable operation. Its three-leaf offset design allows smooth, wide opening, and the integrated handle aids in hinge positioning and handling during installation. Built for industrial or high-traffic use, it offers long-lasting, low-maintenance performance across various door types.",
         "categories": ["t100", "a100"],
         "image": "images/products/3920-073.webp",
+        "finish": "Brushed SS",
+        "material": "Stainless Brushed",
+        "features": [
+        "Provides optimal clearance and smooth pivot movement for heavy-duty door applications",
+        "Facilitates easy positioning and handling of the hinge during installation or maintenance",
+        "Engineered for long-lasting performance and resistance to wear"
+        ],
+        "drawings": [
+            "images/drawings/3920-073.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "3931-072",
-        "title": "Titan End Carrier Set - Top",
+        "title": "Titan Top Left Han End Carrier Set - HDs",
         "description": "Provide secure support and guidance for end door panels at the top track, ensuring smooth sliding or folding operation and stable alignment within door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3931-072.webp",
+        "loadRating": "100KG",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/3931-072.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "3933-072",
         "title": "TITAN Intermediate Carrier Set - Top",
         "description": "Support and guide intermediate door panels along the overhead track, delivering smooth, stable movement and reliable alignment in bifold or sliding door systems.",
+        "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3933-072.webp",
+        "loadRating": "100KG",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "3 Leaf Hinge Construction",
+        "Precision ground Stainless Steel bearings for smooth operation and reduced noise",
+        "Dust sealed for lasting performance"
+        ],
+        "drawings": [
+            "images/drawings/3933-072.webp",
+            "images/drawings/3933-072-2.webp"
+        ],
         "tags": ["T100", "A100"]
     },
     {
         "id": "8295-071",
         "title": "4 Wheel Carrier - MD/HD",
         "description": "Heavy-Duty carrier designed to provide smooth and stable movement of door panels along the track, ensuring reliable operation in sliding or folding door systems.",
-        "categories": ["platform-integrated"],
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "categories": ["t350"],
         "image": "images/products/8295-071.webp",
-        "tags": ["Platform Integrated Bifolds"]
+        "material": "SS",
+        "wheel": "Engineered Polymer",
+        "bearing": "SS",
+        "loadRating": "175kg/Roller - Straight Sliding",
+        "finish": "Lorem",
+        "features": [
+        "Heavy / Standard-Duty Bifold door hardware",
+        "Easy installation and adjustment",
+        "Corrosion resistant finish"
+        ],
+        "drawings": [
+            "images/drawings/8295-071.webp"
+        ],
+        "tags": ["T350"]
     }
 ]

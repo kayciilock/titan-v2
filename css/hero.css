@@ -7,13 +7,26 @@
     padding: 2.5rem 0;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .big-logo {
     max-width: 700px;
     max-height: 200px;
+    animation: fadeIn 0.4s ease-out forwards;
 }
 
 .big-logo img {
     width: 100%;
+    display: block; /* Removes unwanted bottom whitespace */
 }
 
 .hero {
@@ -108,21 +121,22 @@
 .entry p {
     display: grid;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 0.4s ease, opacity 0.3s ease;
-    opacity: 0;
-    visibility: hidden;
+    transition: grid-template-rows 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .entry.open p {
     grid-template-rows: 1fr;
-    opacity: 1;
-    visibility: visible;
 }
 
 .entry p span {
     min-height: 0;
     overflow: hidden;
-    display: block;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.entry.open p span {
+    opacity: 1;
 }
 
 .collapse .dropdown-arrow {
@@ -152,18 +166,22 @@
 
 .img-top-left {
   position: absolute;
-  top: -57.5%;
-  right: 10%;
-  rotate: calc(25deg);
+  top: -50.5%;
+  right: 7%;
+  rotate: 25deg;
   width: 35%;
+  animation: popIn 0.6s cubic-bezier(0.26, 0.53, 0.74, 1.48) forwards;
+  opacity: 0;
 }
 
 .img-bottom-right {
   position: absolute;
-  top: -62%;
+  top: -55%;
   right: 20%;
-  rotate: calc(-25deg);
+  rotate: -25deg;
   width: 20%;
+  animation: popIn 0.6s cubic-bezier(0.26, 0.53, 0.74, 1.48) 0.2s forwards;
+  opacity: 0;
 }
 
 .big-family-img {
@@ -171,4 +189,18 @@
   top: 50%;
   right: 0%;
   width: 50%;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

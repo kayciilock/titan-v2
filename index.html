@@ -66,7 +66,7 @@
                             <li data-preview="one"><a href="t100-bifolds.html">T100 Bifolds</a></li>
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
-                            <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li>
+                            <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
                             <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
@@ -89,9 +89,12 @@
 
                 <div class="row top-text">
                 <div class="big-logo">
-                    <img src="images/logos/titan-white.webp" alt="logo"/>
+                    <img src="images/logos/titan-white.webp" 
+                        alt="logo" 
+                        fetchpriority="high" 
+                        decoding="async" />
                 </div>
-                <p>
+                <p class="para">
                     Discover TITAN doorware’s cutting-edge solutions, specially crafted for the USA market. Engineered for exceptional strength and reliability, TITAN doorware products are designed to elevate the performance and style of both residential and commercial door systems. With an unwavering focus on security and energy efficiency, TITAN ensures that their doorware not only protects your spaces but also promotes sustainability. Whether you're a homeowner seeking peace of mind or a business aiming for quality and innovation, TITAN doorware stands as the ideal partner for all your door system needs.
                 </p>
                 </div>
@@ -100,7 +103,7 @@
                     <div class="dropdown">
                         <div class="entry">
                             <div class="flex-row center collapse"><h3>SLIDING SYSTEMS</h3><div class="dropdown-arrow">▼</div></div>
-                            <p>
+                            <p class="para">
                                 <span>
                                 TITAN doorware offers high-quality sliding door hardware that combines smooth operation, durability, and security for both homes and businesses. Their advanced engineering ensures easy installation, quiet performance, and energy efficiency, making them a reliable and stylish choice for any sliding door system.
                                 </span>
@@ -108,7 +111,7 @@
                         </div>
                         <div class="entry">
                             <div class="flex-row center collapse"><h3>BIFOLD SYSTEMS</h3><div class="dropdown-arrow">▼</div></div>
-                            <p>
+                            <p class="para">
                                 <span>
                                     TITAN doorware delivers reliable and stylish bifold door hardware designed for both residential and commercial applications. Their precision-engineered components ensure smooth folding movement, durability, and secure closure, all while maximizing space and providing modern appeal. With a focus on easy installation and long-lasting performance, TITAN makes bifold systems a practical and attractive solution for any setting.
                                 </span>
@@ -117,8 +120,8 @@
                     </div>
 
                     <div class="image-container">
-                        <img src="images/products/hero-product-1.webp" alt="Product 1 Hero" class="img-top-left">
-                        <img src="images/products/hero-product-2.webp" alt="Product 2 Hero" class="img-bottom-right">
+                        <img loading="lazy" src="images/products/hero-product-1.webp" alt="Product 1 Hero" class="img-top-left">
+                        <img loading="lazy" src="images/products/hero-product-2.webp" alt="Product 2 Hero" class="img-bottom-right">
                     </div>
                 </div>
             </div>
@@ -135,7 +138,7 @@
             <div class="dual-grid">
                 <div class="big-text">INTRODUCING OUR TITAN DOORWARE</div>
                 <div class="row">
-                    <p>TITAN doorware delivers reliable, innovative hardware solutions for homes and businesses across the USA. Engineered for strength and style, TITAN products enhance the performance and security of any door system. With a commitment to quality and modern design, TITAN is the partner of choice for homeowners, builders, and architects, offering durable solutions that ensure easy installation and a seamless fit for any space.</p>
+                    <p class="para">TITAN doorware delivers reliable, innovative hardware solutions for homes and businesses across the USA. Engineered for strength and style, TITAN products enhance the performance and security of any door system. With a commitment to quality and modern design, TITAN is the partner of choice for homeowners, builders, and architects, offering durable solutions that ensure easy installation and a seamless fit for any space.</p>
                 </div>
             </div>
 
@@ -146,33 +149,30 @@
                 <div class="fact">
                     <div class="icon weight"></div>
                     <div class="med-text">100kg+</div>
-                    <p>Maximum Panel Weight</p>
+                    <p class="para">Maximum Panel Weight</p>
                 </div>
                 <div class="fact">
                     <div class="icon cycle"></div>
                     <div class="med-text">25,000+</div>
-                    <p>Cycle Durability</p>
+                    <p class="para">Cycle Durability</p>
                 </div>
                 <div class="fact">
                     <div class="icon steel"></div>
                     <div class="med-text">304 & 316</div>
-                    <p>Stainless Steel</p>
+                    <p class="para">Stainless Steel</p>
                 </div>
                 <div class="fact">
                     <div class="icon bend"></div>
                     <div class="med-text"> < 4mm</div>
-                    <p>Deflection At Full Load</p>
+                    <p class="para">Deflection At Full Load</p>
+                    </div>
                 </div>
-                
-            </div>
             
                 <div class="separator cut"></div>
 
                 <div class="row width-100 space-between margin-bot-2 margin-top-2">
-                    <a><button class="circle scroll-arrow">
-                        ↓
-                    </button></a>
-                    <button class="btn">ENQUIRE NOW<div class="right-arrow">⟶</div></button>
+                    <a href="#info" class="circle scroll-arrow"></a>
+                    <a href="contact-us.html" class="btn">ENQUIRE NOW<div class="right-arrow">⟶</div></a>
                 </div>
 
             </div>
@@ -180,44 +180,44 @@
         </div>
     </section>
 
-    <section class="info">
+    <section class="info" id="info">
         <div class="container content-space margin-vert-int">
             <div class="flex-column center">
                 <div class="dual-grid gap-4">
                     <div class="column">
                     <div class="label">FOLDING SYSTEMS</div>
                     <div class="big-text dark">Expanding Horizons with <b>TITAN Folding Doors</b></div>
-                    <p>TITAN folding doors are designed to open up any space, <b>seamlessly connecting indoors with the outdoors while maximizing natural light and airflow</b>. Their smooth, reliable folding mechanism creates wide, unobstructed openings, offering both flexibility and style for modern living or commercial environments. With a focus on durability, security, and elegant design, TITAN folding doors expand your horizons, transforming ordinary settings into extraordinary, versatile spaces perfect for entertaining, relaxing, or working.</p>
+                    <p class="para">TITAN folding doors are designed to open up any space, <b>seamlessly connecting indoors with the outdoors while maximizing natural light and airflow</b>. Their smooth, reliable folding mechanism creates wide, unobstructed openings, offering both flexibility and style for modern living or commercial environments. With a focus on durability, security, and elegant design, TITAN folding doors expand your horizons, transforming ordinary settings into extraordinary, versatile spaces perfect for entertaining, relaxing, or working.</p>
                     <div class="separator bolder margin-1"></div>    
                     <div class="dual-col-grid">
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Create <b>expansive openings</b> that blur the boundary between interior and exterior spaces, enhancing the sense of openness and freedom.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Allow abundant <b>natural light</b> and fresh air into your home or workspace, making environments feel brighter and more comfortable.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Feature a precision-engineered folding mechanism that provides smooth, <b>effortless operation</b> and long-lasting reliability.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Combine <b>contemporary design</b> with robust security features, ensuring both an attractive appearance and peace of mind for any setting.
                             </p>
                         </div>
                     </div>
                     </div>
                     <div class="square">
-                        <img src="images/systems/folding.webp" alt="TITAN Folding Doors">
+                        <img loading="lazy" src="images/systems/folding.webp" alt="TITAN Folding Doors">
                     </div>
                 </div>
             </div>
@@ -231,35 +231,35 @@
             <div class="flex-column center">
                 <div class="dual-grid gap-4">
                     <div class="square">
-                        <img src="images/systems/sliding.webp" alt="TITAN Sliding Doors">
+                        <img loading="lazy" src="images/systems/sliding.webp" alt="TITAN Sliding Doors">
                     </div>
                     <div class="column">
                     <div class="label">SLIDING SYSTEMS</div>
                     <div class="big-text dark">Enhance Your Living with <b>TITAN Sliding Doors</b></div>
-                    <p>Enhance your living spaces with TITAN sliding doors, designed to provide effortless transitions and <b>maximize the use of available space</b>. With smooth, quiet gliding action and a modern, sleek appearance, TITAN sliding doors offer both functionality and visual appeal. Engineered for durability and security, they bring in natural light while maintaining energy efficiency, making them an ideal choice for both <b>residential and commercial</b> environments. Transform your home or workplace with the versatility and refined design that TITAN sliding doors offer.</p>
+                    <p class="para">Enhance your living spaces with TITAN sliding doors, designed to provide effortless transitions and <b>maximize the use of available space</b>. With smooth, quiet gliding action and a modern, sleek appearance, TITAN sliding doors offer both functionality and visual appeal. Engineered for durability and security, they bring in natural light while maintaining energy efficiency, making them an ideal choice for both <b>residential and commercial</b> environments. Transform your home or workplace with the versatility and refined design that TITAN sliding doors offer.</p>
                     <div class="separator bolder margin-1"></div>    
                     <div class="dual-col-grid">
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Effortlessly create a <b>seamless connection between indoor and outdoor spaces</b>, enhancing your experience and extending your living environment.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 <b>Space-saving</b> sliding doors are ideal for maximizing usable areas, making them perfect for contemporary homes as well as busy commercial settings.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Enjoy <b>smooth and quiet gliding action</b>, thanks to TITAN’s precision engineering, which adds a touch of comfort and reliability to everyday life.
                             </p>
                         </div>
                         <div class="point">
                             <div class="indent"></div>
-                            <p>
+                            <p class="para">
                                 Engineered for <b>long-lasting durability</b>, <b>security</b>, and <b>energy efficiency</b>, TITAN sliding doors provide practical performance while elevating your space’s style.
                             </p>
                         </div>
@@ -276,39 +276,39 @@
         <div class="container content-space margin-vert-big">
             <div class="flex-column center">
                 <div class="column text-center max-800">
-                    <h1>What TITAN Provides</h1>
-                    <p>TITAN delivers doorware solutions that set new standards for quality and design. Our products are crafted to excel in performance, aesthetics, and reliability, ensuring they meet the needs of both modern architecture and demanding environments.</p>
+                    <h1 class="heading">What TITAN Provides</h1>
+                    <p class="para">TITAN delivers doorware solutions that set new standards for quality and design. Our products are crafted to excel in performance, aesthetics, and reliability, ensuring they meet the needs of both modern architecture and demanding environments.</p>
                 </div>
                 <div class="three-col-grid max-800 margin-top-2">
                     <div class="box point col">
                         <div class="icon ruler"></div>
                         <h4>Architectural Precision</h4>
-                        <p>Engineered for perfect alignment and operation.</p>
+                        <p class="para">Engineered for perfect alignment and operation.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon boat"></div>
                         <h4>Coastal Life</h4>
-                        <p>Built to resist corrosion in harsh seaside environments.</p>
+                        <p class="para">Built to resist corrosion in harsh seaside environments.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon aesthetic"></div>
                         <h4>Minimalist Aesthetics</h4>
-                        <p>Sleek, simple designs for modern spaces.</p>
+                        <p class="para">Sleek, simple designs for modern spaces.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon tool"></div>
                         <h4>Premium Materials</h4>
-                        <p>Made with high-quality, durable components.</p>
+                        <p class="para">Made with high-quality, durable components.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon builder"></div>
                         <h4>Trusted By Architects</h4>
-                        <p>Preferred by professionals for reliability and style.</p>
+                        <p class="para">Preferred by professionals for reliability and style.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon roller"></div>
                         <h4>Enduring Performance</h4>
-                        <p>Designed for lasting durability and performance.</p>
+                        <p class="para">Designed for lasting durability and performance.</p>
                     </div>
                 </div>
             </div>
@@ -320,8 +320,8 @@
     <section class="products">
         <div class="container content-space margin-vert-big">
             <div class="column half">
-                    <h1>Our TITAN Products</h1>
-                    <p>Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
+                    <h1 class="heading">Our TITAN Products</h1>
+                    <p class="para">Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
                 </div>
             <div class="three-col-grid">
                 <div class="product top-pivot">
@@ -347,8 +347,8 @@
                 <div class="product empty">
                     <div class="column text-center center">
                         <h2>Get To Know Our Products</h2>
-                        <p>Explore our full range to discover the complete selection of TITAN doorware solutions.</p>
-                        <button class="btn filled">View All Products</button>
+                        <p class="para">Explore our full range to discover the complete selection of TITAN doorware solutions.</p>
+                        <a href="titan-doorware.html" class="btn filled">View All Products</a>
                     </div>
                 </div>
                 <div class="product end-carrier">
@@ -398,4 +398,7 @@
     <script src="js/get.year.js"></script>
     <script src="js/dropdown.menu.js"></script>
     <script src="js/preview.drop.js"></script>
+    <script src="js/text.animation.js"></script>
+    <script src="js/scroll.to.arrow.js"></script>
+    
 </html>

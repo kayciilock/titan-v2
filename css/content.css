@@ -221,8 +221,8 @@
 .product:nth-child(2) { --prod-delay: 0.2s; }
 .product:nth-child(3) { --prod-delay: 0.3s; }
 .product:nth-child(4) { --prod-delay: 0.4s; }
-.product:nth-child(5) { --prod-delay: 0.6s; } /* this is last */
-.product:nth-child(6) { --prod-delay: 0.5s; }
+.product:nth-child(5) { --prod-delay: 0.5s; } /* this is last */
+.product:nth-child(6) { --prod-delay: 0.6s; }
 
 .product.visible {
     transition-delay: var(--prod-delay);
@@ -231,6 +231,11 @@
 .product.visible:hover {
     background-size: 60%;
     background-color: #f0f0f0c0;
+    cursor: pointer;
+}
+
+.product.empty:hover {
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -254,8 +259,7 @@
     background-image: url(../images/products/3914-078.webp);
 }
 
-.product.empty,
-.product:nth-child(5) {
+.product.empty {
     background-color: transparent;
     width: 100%;
     align-items: center;

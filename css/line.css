@@ -35,6 +35,10 @@
     margin-top: 0.4rem;
 }
 
+.product-card .label {
+    opacity: 1;
+}
+
 .label {
     padding: 0.25rem 1rem;
     border: 1px solid #c9c9c9;

@@ -56,3 +56,9 @@
     transform: translateY(0);
     transition-delay: 0.2s;
 }
+
+@media screen and (max-width: 1365px) {
+    .separator.hidden-1365 {
+        display: none;
+    }
+}

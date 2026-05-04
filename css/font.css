@@ -127,7 +127,7 @@ section.products h2,
 section.products h3,
 section.products h4,
 section.grey p {
-    color: #060606;
+    color: #ffffff;
 }
 
 section.hardware-configurator p,
@@ -179,7 +179,7 @@ footer p{
 }
 
 .dark-text {
-    color: #060606;
+    color: #060606 !important;
 }
 
 .text-start {

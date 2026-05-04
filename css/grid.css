@@ -88,9 +88,46 @@
 }
 
 .grid-item {
-  background-color: #f0f0f0;
-  border-radius: 12px;
-  border: 1px solid #e0e0e0;
+    background-color: #b9b9b9;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.grid-item.one {
+    background-image: url(../images/projects/poolhouse.webp);
+}
+
+.grid-item.two {
+    background-image: url(../images/projects/3panel1.webp);
+}
+
+.grid-item.three {
+    background-image: url(../images/projects/drouin.webp);
+}
+
+.grid-item.four {
+    background-image: url(../images/projects/3b3panel.webp);
+}
+
+.grid-item.five {
+    background-image: url(../images/projects/surrey.webp);
 }
 
 .col-span-2 {
@@ -107,4 +144,49 @@
 
 .row-span-1 {
   grid-row: span 1;
+}
+
+@media screen and (max-width: 1365px) {
+  .dual-grid {
+    grid-template-columns: 1fr;
+  }
+  .four-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .half {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .three-col-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .three-col-grid.index {
+    grid-template-columns: 1fr;
+  }
+  .product.empty {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dual-col-grid {
+    grid-template-columns: 1fr;
+  }
+  .four-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .three-col-grid {
+    grid-template-columns: 1fr;
+  }
 }

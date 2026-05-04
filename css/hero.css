@@ -166,7 +166,7 @@
 
 .img-top-left {
   position: absolute;
-  top: -50.5%;
+  top: -45.5%;
   right: 7%;
   rotate: 25deg;
   width: 35%;
@@ -176,7 +176,7 @@
 
 .img-bottom-right {
   position: absolute;
-  top: -55%;
+  top: -45%;
   right: 20%;
   rotate: -25deg;
   width: 20%;
@@ -203,4 +203,36 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media screen and (max-width: 1500px) {
+    .img-bottom-right {
+        top: -148%;
+        right: 25%;
+    }
+    .img-top-left {
+        top: -38.5%;
+        right: 1%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .big-logo {
+        max-width: 400px;
+    }
+    .hero.index-pg.content {
+        gap: 4rem;
+    }
+    .dropdown {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-container {
+        display: none;
+    }
+    .dropdown {
+        width: 100%;
+    }
 }

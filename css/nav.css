@@ -184,3 +184,17 @@ li.active {
     transform: translateX(10px);
     color: #888888;
 }
+
+@media screen and (max-width: 1080px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .powered-by {
+        text-align: start;
+        padding-left: 0.5rem;
+        margin-top: 2rem;
+    }
+}

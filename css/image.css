@@ -126,3 +126,20 @@
 .light-grey-bg {
     background-color: #e9e9e971;
 }
+
+@media screen and (max-width: 1550px) {
+    .hero .square {
+        max-height: 500px;
+        aspect-ratio: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .square img {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+}

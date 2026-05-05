@@ -161,6 +161,7 @@ footer p{
     color: #ffffff;
     line-height: 1.1;
     font-weight: 600;
+    text-align: start;
 }
 
 .padding-right-4 {
@@ -209,4 +210,13 @@ footer p{
 .heading.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media screen and (max-width: 700px) {
+    .big-text {
+        font-size: 3em;
+    }
+    .hero-text {
+        font-size: 3.5em;
+    }
 }

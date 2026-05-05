@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.hero p {
+    text-align: start;
+}
+
 .hero.content {
     padding: 2.5rem 0;
 }
@@ -103,6 +107,7 @@
     gap: 1rem;
     display: flex;
     flex-flow: column;
+    text-align: start;
 }
 
 .hero.index-pg.content {
@@ -214,6 +219,16 @@
         top: -38.5%;
         right: 1%;
     }
+    .big-family-img {
+        top: 80%;
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .big-family-img {
+        top: 100%;
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -234,5 +249,18 @@
     }
     .dropdown {
         width: 100%;
+    }
+    .big-family-img {
+        display: none;
+    }
+    .doorware.hero .image-container {
+        display: none;
+    }
+    .hero.content .row.design-points {
+        flex-flow: column;
+        gap: 0;
+    }
+    .hero.content ul {
+        padding-inline-start: 0.2rem;
     }
 }

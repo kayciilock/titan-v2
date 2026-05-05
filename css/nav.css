@@ -197,4 +197,7 @@ li.active {
         padding-left: 0.5rem;
         margin-top: 2rem;
     }
+    nav .center {
+        align-items: flex-start;
+    }
 }

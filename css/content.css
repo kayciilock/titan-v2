@@ -186,7 +186,6 @@
     display: flex;
     flex-flow: column;
     gap: 0.5rem;
-    aspect-ratio: 1/1;
 }
 
 .box .icon, 
@@ -328,7 +327,7 @@
     width: 100%;
     display: flex;
     align-self: center;
-    padding: 4rem 8rem;
+    padding: 4rem;
     padding-right: 2rem;
     justify-self: flex-end;
     text-align: right;
@@ -561,8 +560,42 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .drawings {
+        gap: 1rem;
+        padding: 0;
+        border: none;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .info .dual-grid .square {
         order: -1;
+    }
+    .fact::after {
+    background: none;
+    }
+    .right.dom-grid .sect-1 {
+    display: none;
+    }
+    .left.dom-grid .sect-2 {
+        display: none;
+    }
+    .right.dom-grid .sect-2,
+    .left.dom-grid .sect-1 {
+        padding: 2.5rem;
+        text-align: center;
+        align-items: center;
+    }
+    section.grey .dual-grid {
+        padding: 2rem;
+        width: auto;
+    }
+    .product-cta {
+        padding: 2rem 1rem;
+    }
+    .motion .content,
+    .form .content {
+        padding: 4rem 2rem;
     }
 }

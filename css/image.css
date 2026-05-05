@@ -85,11 +85,7 @@
 }
 
 .preview.four {
-    background-image: url(../images/hero/platform-integrated.webp);
-}
-
-.preview.five {
-    background-image: url(../images/hero/titan-sliders.webp);
+    background-image: url(../images/hero/doorware.webp);
 }
 
 .preview {
@@ -141,5 +137,9 @@
         height: 100%;
         object-position: center;
         object-fit: cover;
+    }
+    section.info .square {
+        order: -1;
+        aspect-ratio: 4/3;
     }
 }

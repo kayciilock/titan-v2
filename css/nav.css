@@ -57,16 +57,6 @@ li.active {
     background-image: url(../images/logos/titan-black.webp);
 }
 
-.hamburger-dropdown {
-    background-image: url(../images/icons/hamburger-light.webp);
-    display: none;
-    width: 2rem;
-    height: 2rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .powered-by {
     text-align: end;
     transition: color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
@@ -120,7 +110,7 @@ li.active {
     background-color: #ffffff;
     z-index: 1000;
     position: absolute;
-    top: 68px;
+    top: 96px;
     left: 0;
     width: 100vw;
     padding: 4rem 0;
@@ -188,6 +178,10 @@ li.active {
 @media screen and (max-width: 1080px) {
     .navbar {
         display: none;
+    }
+    nav .row {
+        width: 100%;
+        justify-content: space-between;
     }
 }
 

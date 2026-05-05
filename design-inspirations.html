@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/side.menu.css">
         <link rel="stylesheet" href="css/flex.css">
         <link rel="stylesheet" href="css/container.css">
         <link rel="stylesheet" href="css/section.css">
@@ -47,7 +48,22 @@
                     </div>
                     <div class="row">
                         <a href="index.html"><div class="logo margin-vert-small"></div></a>
-                        <div class="hamburger-dropdown"></div>
+                        <div class="hamburger-wrapper">
+                            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                            <label for="menu-toggle" class="hamburger-icon">
+                                <span class="menuline"></span>
+                                <span class="menuline"></span>
+                            </label>
+
+                            <div class="menu-overlay">
+                                <nav class="mobile-nav">
+                                    <a href="#">Projects</a>
+                                    <a href="#">Services</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>   
@@ -65,7 +81,7 @@
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
                             <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
-                            <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
+                            <li data-preview="four"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
 

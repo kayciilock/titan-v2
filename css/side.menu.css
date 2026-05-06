@@ -10,7 +10,7 @@
 
   .submenu-label {
     color: #060606;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    background-color: #bebebe;
+    background-color: #e4e4e4;
   }
 
   .submenu-toggle:checked ~ .submenu-content {
@@ -136,6 +136,8 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: center;
+    max-width: 50%;
     width: 100%;
   }
 

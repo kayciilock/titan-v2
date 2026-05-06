@@ -184,6 +184,7 @@
     padding: 1rem;
     background-color: #eeeeee25;
     display: flex;
+    aspect-ratio: 1/1;
     flex-flow: column;
     gap: 0.5rem;
 }
@@ -521,11 +522,8 @@
 
 @media screen and (max-width: 1500px) {
     .dark-grey {
-        justify-content: flex-start;
-        justify-self: flex-start;
+        justify-content: flex-end;
         width: 100%;
-        padding-left: 2rem;
-        text-align: left;
     }
     section.grey {
         justify-content: start;
@@ -592,7 +590,7 @@
         width: auto;
     }
     .product-cta {
-        padding: 2rem 1rem;
+        padding: 2rem;
     }
     .motion .content,
     .form .content {

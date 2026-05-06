@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/side.menu.css">
         <link rel="stylesheet" href="css/flex.css">
         <link rel="stylesheet" href="css/container.css">
         <link rel="stylesheet" href="css/section.css">
@@ -39,7 +40,7 @@
         <div class="container">
             <nav>
                 <div class="flex-row center">
-                    <div>
+                    <div class="navbar">
                         <ul>
                             <li class="products-trigger">PRODUCTS<div class="dropdown-arrow">▼</div></li>
                             <li><a href="design-inspirations.html">DESIGN INSPIRATIONS</a></li>
@@ -47,9 +48,35 @@
                             <li><a href="contact-us.html">CONTACT US</a></li>
                         </ul>
                     </div>
-                    <div class="row">
-                        <a href="index.html"><div class="logo"></div></a>
-                        <div class="hamburger-dropdown"></div>
+                    <div class="row ">
+                        <a href="index.html"><div class="logo margin-vert-small"></div></a>
+                        <div class="hamburger-wrapper">
+                            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                            <label for="menu-toggle" class="hamburger-icon">
+                                <span class="menuline"></span>
+                                <span class="menuline"></span>
+                            </label>
+
+                            <div class="menu-overlay">
+                                <nav class="mobile-nav">
+                                    <div class="nav-item-wrapper">
+                                        <input type="checkbox" id="projects-submenu" class="submenu-toggle">
+                                        <label for="projects-submenu" class="submenu-label">Projects</label>
+                                        
+                                        <div class="submenu-content">
+                                            <a href="t100-bifolds.html">T100 Bifolds</a>
+                                            <a href="a100-bifolds.html">A100 Bifolds</a>
+                                            <a href="t350-sliders.html">T350 Sliders</a>
+                                            <a href="titan-doorware.html">Doorware</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="#">Design Inspirations</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>   
@@ -66,8 +93,7 @@
                             <li data-preview="one"><a href="t100-bifolds.html">T100 Bifolds</a></li>
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
-                            <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
-                            <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
+                            <li data-preview="four"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
 
@@ -168,7 +194,7 @@
                     </div>
                 </div>
             
-                <div class="separator cut"></div>
+                <div class="separator cut hidden-1365"></div>
 
                 <div class="row width-100 space-between margin-bot-2 margin-top-2">
                     <a href="#info" class="circle scroll-arrow"></a>
@@ -221,7 +247,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
     </section>
 
     <div class="line dark"></div>
@@ -320,10 +345,11 @@
     <section class="products">
         <div class="container content-space margin-vert-big">
             <div class="column half">
-                    <h1 class="heading">Our TITAN Products</h1>
-                    <p class="para">Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
+                    <h1 class="heading dark-text">Our TITAN Products</h1>
+                    <p class="para dark-text">Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
+                    <a href="titan-doorware.html" class="btn filled hidden-800">View All Products</a>
                 </div>
-            <div class="three-col-grid">
+            <div class="three-col-grid index">
                 <div class="product top-pivot">
                     <div class="base dark">
                         <h4>Top Pivot Set</h4>
@@ -346,8 +372,8 @@
                 </div>
                 <div class="product empty">
                     <div class="column text-center center">
-                        <h2>Get To Know Our Products</h2>
-                        <p class="para">Explore our full range to discover the complete selection of TITAN doorware solutions.</p>
+                        <h2 class="dark-text">Get To Know Our Products</h2>
+                        <p class="para  dark-text">Explore our full range to discover the complete selection of TITAN doorware solutions.</p>
                         <a href="titan-doorware.html" class="btn filled">View All Products</a>
                     </div>
                 </div>
@@ -377,7 +403,7 @@
             <div class="flex-row margin-top-2">
 
                 <div class="flex-column gap-small">
-                    <div class="logo dark"></div>
+                    <a href="index.html" class="logo dark"></a>
                     <p class="left-indent">TITAN Doorware • Strength In Motion</p>
                     <div class="year left-indent"></div>
                 </div>

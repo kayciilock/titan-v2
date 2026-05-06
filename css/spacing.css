@@ -53,6 +53,10 @@
     width: 100%;
 }
 
+.min-height-300 {
+    min-height: 300px;
+}
+
 .width-100vw {
     width: 100vw;
 }
@@ -71,4 +75,16 @@
 
 .space-between {
     justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .padding-right-4 {
+        padding-right: 0;
+    }
+    .margin-vert-big {
+        margin: 4rem 0;
+    }
+    .content-space {
+        gap: 2rem;
+    }
 }

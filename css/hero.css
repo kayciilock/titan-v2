@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.hero p {
+    text-align: start;
+}
+
 .hero.content {
     padding: 2.5rem 0;
 }
@@ -103,6 +107,7 @@
     gap: 1rem;
     display: flex;
     flex-flow: column;
+    text-align: start;
 }
 
 .hero.index-pg.content {
@@ -166,7 +171,7 @@
 
 .img-top-left {
   position: absolute;
-  top: -50.5%;
+  top: -45.5%;
   right: 7%;
   rotate: 25deg;
   width: 35%;
@@ -176,7 +181,7 @@
 
 .img-bottom-right {
   position: absolute;
-  top: -55%;
+  top: -45%;
   right: 20%;
   rotate: -25deg;
   width: 20%;
@@ -203,4 +208,59 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media screen and (max-width: 1500px) {
+    .img-bottom-right {
+        top: -148%;
+        right: 25%;
+    }
+    .img-top-left {
+        top: -38.5%;
+        right: 1%;
+    }
+    .big-family-img {
+        top: 80%;
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .big-family-img {
+        top: 100%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .big-logo {
+        max-width: 400px;
+    }
+    .hero.index-pg.content {
+        gap: 4rem;
+    }
+    .dropdown {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-container {
+        display: none;
+    }
+    .dropdown {
+        width: 100%;
+    }
+    .big-family-img {
+        display: none;
+    }
+    .doorware.hero .image-container {
+        display: none;
+    }
+    .hero.content .row.design-points {
+        flex-flow: column;
+        gap: 0;
+    }
+    .hero.content ul {
+        padding-inline-start: 0.2rem;
+    }
 }

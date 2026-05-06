@@ -15,6 +15,7 @@
         property="twitter:description">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/side.menu.css">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/flex.css">
         <link rel="stylesheet" href="css/container.css">
@@ -45,8 +46,34 @@
                             </ul>
                         </div>
                         <div class="row">
-                            <a href="index.html"><div class="logo"></div></a>
-                            <div class="hamburger-dropdown"></div>
+                            <a href="index.html"><div class="logo margin-vert-small"></div></a>
+                            <div class="hamburger-wrapper">
+                            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                            <label for="menu-toggle" class="hamburger-icon">
+                                <span class="menuline"></span>
+                                <span class="menuline"></span>
+                            </label>
+
+                            <div class="menu-overlay">
+                                <nav class="mobile-nav">
+                                    <div class="nav-item-wrapper">
+                                        <input type="checkbox" id="projects-submenu" class="submenu-toggle">
+                                        <label for="projects-submenu" class="submenu-label">Projects</label>
+                                        
+                                        <div class="submenu-content">
+                                            <a href="t100-bifolds.html">T100 Bifolds</a>
+                                            <a href="a100-bifolds.html">A100 Bifolds</a>
+                                            <a href="t350-sliders.html">T350 Sliders</a>
+                                            <a href="titan-doorware.html">Doorware</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="#">Design Inspirations</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </nav>   
@@ -58,13 +85,13 @@
             <div class="container content-space">
                 <div class="dual-grid gap-4">
 
-                    <div>
+                    <div class="navbar">
                         <ul>
                             <li data-preview="one"><a href="t100-bifolds.html">T100 Bifolds</a></li>
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
                             <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
-                            <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
+                            <li data-preview="four"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
 
@@ -159,34 +186,34 @@
                 </div>
                 <div class="three-col-grid max-800 margin-top-2">
                     <div class="box point col">
-                        <div class="icon ruler"></div>
-                        <h4>Architectural Precision</h4>
-                        <p class="para">Engineered for perfect alignment and operation.</p>
+                        <div class="icon weight dark"></div>
+                        <h4>100kg Panel Capacity</h4>
+                        <p class="para">Safely supports panels weighing up to 100kg, for strong and reliable installations.</p>
                     </div>
                     <div class="box point col">
-                        <div class="icon boat"></div>
-                        <h4>Coastal Life</h4>
-                        <p class="para">Built to resist corrosion in harsh seaside environments.</p>
+                        <div class="icon top-hung"></div>
+                        <h4>Top-Hung System</h4>
+                        <p class="para">Eliminates the need for floor tracks, providing a cleaner appearance and smoother operation.</p>
                     </div>
                     <div class="box point col">
-                        <div class="icon aesthetic"></div>
-                        <h4>Minimalist Aesthetics</h4>
-                        <p class="para">Sleek, simple designs for modern spaces.</p>
+                        <div class="icon material dark"></div>
+                        <h4>Material Versatility</h4>
+                        <p class="para">Designed for both timber and aluminium doors, ideal for various project types.</p>
                     </div>
                     <div class="box point col">
                         <div class="icon tool"></div>
-                        <h4>Premium Materials</h4>
-                        <p class="para">Made with high-quality, durable components.</p>
+                        <h4>Easy Installation</h4>
+                        <p class="para">Pre-engineered for straightforward setup, saving time for installers and builders.</p>
                     </div>
                     <div class="box point col">
-                        <div class="icon builder"></div>
-                        <h4>Trusted By Architects</h4>
-                        <p class="para">Preferred by professionals for reliability and style.</p>
+                        <div class="icon fold"></div>
+                        <h4>Smooth Folding Action</h4>
+                        <p class="para">Precision rollers ensure quiet, effortless motion on every panel fold.</p>
                     </div>
                     <div class="box point col">
-                        <div class="icon roller"></div>
-                        <h4>Enduring Performance</h4>
-                        <p class="para">Designed for lasting durability and performance.</p>
+                        <div class="icon durable"></div>
+                        <h4>Durability</h4>
+                        <p class="para">Constructed from high-quality, corrosion-resistant materials for lasting performance.</p>
                     </div>
                 </div>
             </div>
@@ -197,42 +224,11 @@
 
         <section class="products">
             <div class="container content-space margin-vert-big">
-                <div class="column half">
+                <div class="column product-cta a100 text-center">
                         <h1 class="heading">A100 Bifolds Products</h1>
-                        <p class="para">Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
+                        <p class="para half">Our TITAN products combine durable engineering with contemporary style, offering dependable solutions for both residential and commercial spaces. Each item is crafted to enhance performance and complement modern environments.</p>
+                        <a href="titan-doorware.html" class="btn filled">Go To Products</a>
                     </div>
-                <div class="three-col-grid">
-                    <div class="product top-pivot">
-                        <div class="base dark">
-                            <h4>Top Pivot Set</h4>
-                        </div>
-                    </div>
-                    <div class="product bottom-pivot">
-                        <div class="base dark">
-                            <h4>Bottom Pivot Set</h4>
-                        </div>
-                    </div>
-                    <div class="product twin-point">
-                        <div class="base dark">
-                            <h4>Twin Point Lock Set</h4>
-                        </div>
-                    </div>
-                    <div class="product centreline-hinge">
-                        <div class="base dark">
-                            <h4>Hinges</h4>
-                        </div>
-                    </div>
-                    <div class="product end-carrier">
-                        <div class="base dark">
-                            <h4>End Carrier Set</h4>
-                        </div>
-                    </div>
-                    <div class="product end-carrier">
-                        <div class="base dark">
-                            <h4>End Carrier Set</h4>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -247,34 +243,34 @@
                     </div>
                 </div>
             </div>
-            <div class="right dom-grid">
-                <div class="sect-1"></div>
-                <div class="sect-2">
-                    <h2>Title</h2>
-                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="right dom-grid">
+                    <div class="sect-1"></div>
+                    <div class="sect-2">
+                        <h2>Strong Panel Support</h2>
+                        <p class="para">A100 Bifold is engineered to support panels weighing up to 100kg, offering stability and strength for medium to large doors.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="left dom-grid margin-top-2">
-                <div class="sect-1">
-                    <h2>Title</h2>
-                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="left dom-grid margin-top-2">
+                    <div class="sect-1">
+                        <h2>Smooth Top-Hung Operation</h2>
+                        <p class="para">The top-hung design allows for effortless, quiet folding and eliminates the need for floor tracks, enhancing aesthetics and usability.</p>
+                    </div>
+                    <div class="sect-2"></div>
                 </div>
-                <div class="sect-2"></div>
-            </div>
-            <div class="right dom-grid margin-top-2">
-                <div class="sect-1"></div>
-                <div class="sect-2">
-                    <h2>Title</h2>
-                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="right dom-grid margin-top-2">
+                    <div class="sect-1"></div>
+                    <div class="sect-2">
+                        <h2>Material Flexibility</h2>
+                        <p class="para">Compatible with both timber and aluminium doors, making it a versatile choice for a wide range of applications.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="left dom-grid margin-top-2 margin-bot-8">
-                <div class="sect-1">
-                    <h2>Title</h2>
-                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="left dom-grid margin-top-2 margin-bot-8">
+                    <div class="sect-1">
+                        <h2>Easy Installation & Long-Lasting Performance</h2>
+                        <p class="para">Designed for straightforward installation and crafted from corrosion-resistant materials for reliable, enduring use.</p>
+                    </div>
+                    <div class="sect-2"></div>
                 </div>
-                <div class="sect-2"></div>
-            </div>
         </section>
 
         <div class="line dark"></div>
@@ -284,28 +280,27 @@
                 <div class="flex-column center">
                     <div class="column text-center max-800">
                         <h1 class="heading">System Drawings</h1>
-                        <p class="para">Explore the system drawings for A100 Bifolds to gain detailed insight into their engineering and installation. These comprehensive diagrams illustrate the key components, layout options, and integration points, making it easier for architects, builders, and installers to plan, specify, and execute high-quality bifold door solutions with confidence</p>
+                        <p class="para">Explore the system drawings for T100 Bifolds to gain detailed insight into their engineering and installation. These comprehensive diagrams illustrate the key components, layout options, and integration points, making it easier for architects, builders, and installers to plan, specify, and execute high-quality bifold door solutions with confidence.</p>
                     </div>
-                    <div class="dual-grid margin-top-4">
+                    <div class="dual-grid margin-top-4 gap-4">
                         <div class="drawings">
                             <div class="view aluminium"></div>
                             <h1 class="heading">Aluminium Drawing Set</h1>
-                            <p class="para">Full engineering pack for aluminium-based A100 Bifold configurations, including head track, pivot jamb, concealed guide, clearances, and access-leaf variants. <br><br>Request DWG/DXF files if needed.</p>
-                            <div class="btn-container">
-                                <button class="btn filled">DOWNLOAD PDF</button>
-                                <button class="btn filled">DOWNLOAD DWG/DXF</button>
+                            <p class="para">Full engineering pack for aluminium-based T100 Bifold configurations, including head track, pivot jamb, concealed guide, clearances, and access-leaf variants. <br><br>Request DWG/DXF files if needed.</p>
+                            <div class="btn-container column">
+                            <a download="dxf-dwg/Aluminium_DWG.zip" class="btn filled">DOWNLOAD DWG/DXF</a>
+                            <a download="pdf/Install.pdf" class="btn dark">DOWNLOAD INSTALLATION GUIDE</a>
                             </div>
-                            <button class="btn width-100 dark-text">DOWNLOAD INSTALLATION GUIDE</button>
                         </div>
                         <div class="drawings">
                             <div class="view timber"></div>
                             <h1 class="heading">Timber Drawing Set</h1>
                             <p class="para">Detailed design information for timber configurations, including head track, pivot jamb, concealed guide, clearances, and access-leaf variants. <br><br>Request DWG/DXF files if needed.</p>
                             <div class="btn-container">
-                                <button class="btn filled">DOWNLOAD PDF</button>
-                                <button class="btn filled">DOWNLOAD DWG/DXF</button>
+                                <a download="pdf/Timber System Drawings.pdf" class="btn filled">DOWNLOAD PDF</a>
+                                <a download="dxf-dwg/Timber System Drawings.DXF" class="btn filled">DOWNLOAD DWG/DXF</a>
                             </div>
-                            <button class="btn width-100 dark-text">DOWNLOAD INSTALLATION GUIDE</button>
+                            <a download="pdf/Install.pdf" class="btn width-100 dark">DOWNLOAD INSTALLATION GUIDE</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +311,13 @@
 
         <section class="hardware-configurator">
             <div class="container content-space margin-vert-big">
-                
+               <div class="column half">
+                        <h1 class="heading">T100 Bifolds Hardware Configurator</h1>
+                        <p class="para">The T100 Bifolds Hardware Configurator makes it easy to select the ideal hardware combination for your specific project. Simply specify your panel materials, sizes, and layout preferences to generate a tailored hardware list, ensuring seamless integration and reliable performance for every installation.</p>
+                </div> 
+                <div class="config">
+                    
+                </div>
             </div>
         </section>
 
@@ -337,7 +338,7 @@
             <div class="flex-row margin-top-2">
 
                 <div class="flex-column gap-small">
-                    <div class="logo dark"></div>
+                    <a href="index.html" class="logo dark"></a>
                     <p class="left-indent">TITAN Doorware • Strength In Motion</p>
                     <div class="year left-indent"></div>
                 </div>

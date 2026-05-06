@@ -11,11 +11,13 @@
         <meta content="Contact Us – TITAN Doorware" property="twitter:title">
         <meta content="Reach out to TITAN for more information, product support, or personalised service. We're here to help with your doorware questions and project requirements." property="twitter:description">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/side.menu.css">
         <link rel="stylesheet" href="css/flex.css">
         <link rel="stylesheet" href="css/container.css">
         <link rel="stylesheet" href="css/section.css">
@@ -38,7 +40,7 @@
             <div class="container">
                 <nav>
                     <div class="flex-row center">
-                        <div>
+                        <div class="navbar">
                             <ul>
                                 <li class="products-trigger">PRODUCTS<div class="dropdown-arrow">▼</div></li>
                                 <li><a href="design-inspirations.html">DESIGN INSPIRATIONS</a></li>
@@ -47,8 +49,34 @@
                             </ul>
                         </div>
                         <div class="row">
-                            <a href="index.html"><div class="logo"></div></a>
-                            <div class="hamburger-dropdown"></div>
+                            <a href="index.html"><div class="logo margin-vert-small"></div></a>
+                            <div class="hamburger-wrapper">
+                            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                            <label for="menu-toggle" class="hamburger-icon">
+                                <span class="menuline"></span>
+                                <span class="menuline"></span>
+                            </label>
+
+                            <div class="menu-overlay">
+                                <nav class="mobile-nav">
+                                    <div class="nav-item-wrapper">
+                                        <input type="checkbox" id="projects-submenu" class="submenu-toggle">
+                                        <label for="projects-submenu" class="submenu-label">Projects</label>
+                                        
+                                        <div class="submenu-content">
+                                            <a href="t100-bifolds.html">T100 Bifolds</a>
+                                            <a href="a100-bifolds.html">A100 Bifolds</a>
+                                            <a href="t350-sliders.html">T350 Sliders</a>
+                                            <a href="titan-doorware.html">Doorware</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="#">Design Inspirations</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </nav>   
@@ -66,7 +94,7 @@
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
                             <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
-                            <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
+                            <li data-preview="four"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
 
@@ -96,7 +124,7 @@
                             We’re here to help you bring your vision to life. Whether you have questions about TITAN products, need technical support, or want guidance on your next project, our team is ready to assist. Reach out to us today for expert advice, personalised service, and the solutions you need to make your project a success.
                         </p>
                         <div class="separator margin-top-2"></div>
-                        <div class="row width-100">
+                        <div class="row width-100 design-points">
                         <ul class="white-text">
                             <li>Receive tailored solutions matched to your specific project requirements.</li>
                             <li>Access drawings, installation guides, and data sheets for precise planning.</li>
@@ -111,7 +139,7 @@
                     </div>
 
                     <div class="square rounded-glaze">
-                        <img loading="lazy" src="images/products/titan-cover.webp" alt="TITAN">
+                        <img loading="lazy" src="images/hero/contact.webp" alt="TITAN">
                     </div>
 
                     </div>
@@ -134,7 +162,7 @@
                 <div class="contact image"></div>
                 <div class="content dark-grey column gap-4">
                     <div class="big-text text-start">Get In Touch</div>
-                    <form action="/submit-form" method="POST">
+                    <form id="generalEnquiryForm">
                         <div class="form-row">
                             <div class="form-column">
                                 <label for="name">Full Name</label>
@@ -196,8 +224,14 @@
                                     maxlength="1000"></textarea>
                             </div>
                         </div>
-
-                        <button type="submit" class="btn filled light">SUBMIT INQUIRY</button>
+                        <div class="cf-turnstile" data-sitekey="0x4AAAAAACdZSYYTlPK-oIpV"></div>
+                        <button 
+                            type="submit"
+                            data-wait="Please wait..." 
+                            value="SUBMIT"
+                            id="submitForm"
+                            class="btn filled light">SUBMIT INQUIRY
+                        </button>
                     </form>
                 </div>
             </div>
@@ -220,7 +254,7 @@
             <div class="flex-row margin-top-2">
 
                 <div class="flex-column gap-small">
-                    <div class="logo dark"></div>
+                    <a href="index.html" class="logo dark"></a>
                     <p class="left-indent">TITAN Doorware • Strength In Motion</p>
                     <div class="year left-indent"></div>
                 </div>
@@ -237,11 +271,18 @@
     
     </body>
 
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=660b69d1619f8fc0952e090a"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/collapse.hero.js"></script>
     <script src="js/get.year.js"></script>
     <script src="js/dropdown.menu.js"></script>
     <script src="js/preview.drop.js"></script>
     <script src="js/text.animation.js"></script>
     <script src="js/scroll.to.arrow.js"></script>
+    <script src="js/contact.submit.js"></script>
 
 </html>

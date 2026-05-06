@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/side.menu.css">
         <link rel="stylesheet" href="css/flex.css">
         <link rel="stylesheet" href="css/container.css">
         <link rel="stylesheet" href="css/section.css">
@@ -37,7 +38,7 @@
         <div class="container">
             <nav>
                 <div class="flex-row center">
-                    <div>
+                    <div class="navbar">
                         <ul>
                             <li class="products-trigger">PRODUCTS<div class="dropdown-arrow">▼</div></li>
                             <li class="active">DESIGN INSPIRATIONS</li>
@@ -46,8 +47,34 @@
                         </ul>
                     </div>
                     <div class="row">
-                        <a href="index.html"><div class="logo"></div></a>
-                        <div class="hamburger-dropdown"></div>
+                        <a href="index.html"><div class="logo margin-vert-small"></div></a>
+                        <div class="hamburger-wrapper">
+                            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                            <label for="menu-toggle" class="hamburger-icon">
+                                <span class="menuline"></span>
+                                <span class="menuline"></span>
+                            </label>
+
+                            <div class="menu-overlay">
+                                <nav class="mobile-nav">
+                                    <div class="nav-item-wrapper">
+                                        <input type="checkbox" id="projects-submenu" class="submenu-toggle">
+                                        <label for="projects-submenu" class="submenu-label">Projects</label>
+                                        
+                                        <div class="submenu-content">
+                                            <a href="t100-bifolds.html">T100 Bifolds</a>
+                                            <a href="a100-bifolds.html">A100 Bifolds</a>
+                                            <a href="t350-sliders.html">T350 Sliders</a>
+                                            <a href="titan-doorware.html">Doorware</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="#">Design Inspirations</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Contact</a>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>   
@@ -65,7 +92,7 @@
                             <li data-preview="two"><a href="a100-bifolds.html">A100 Bifolds</a></li>
                             <li data-preview="three"><a href="t350-sliders.html">T350 Sliders</a></li>
                             <!-- <li data-preview="four"><a href="platform-integrated-bifolds.html">Platform Integrated Bifolds</a></li> -->
-                            <li data-preview="five"><a href="titan-doorware.html">Doorware</a></li>
+                            <li data-preview="four"><a href="titan-doorware.html">Doorware</a></li>
                         </ul>
                     </div>
 
@@ -94,9 +121,9 @@
                     <p class="para">
                         The Design Inspirations page showcases a curated collection of TITAN projects, offering creative ideas and real-world examples of how our doorware elevates both residential and commercial spaces. Explore innovative solutions and stunning installations that highlight the versatility, style, and performance of TITAN products, and find inspiration for your next architectural or design project.
                     </p>
-                    <a href="#projects" class="btn filled">START YOUR PROJECT</a>
+                    <a href="contact-us.html" class="btn filled">START YOUR PROJECT</a>
                     <div class="separator margin-top-2"></div>
-                    <div class="row width-100">
+                    <div class="row width-100 design-points">
                     <ul class="white-text">
                         <li>Expert guidance on selecting the right doorware solutions</li>
                         <li>Custom hardware recommendations to suit your project needs</li>
@@ -253,7 +280,7 @@
             <div class="flex-row margin-top-2">
 
                 <div class="flex-column gap-small">
-                    <div class="logo light"></div>
+                    <a href="index.html" class="logo light"></a>
                     <p class="left-indent">TITAN Doorware • Strength In Motion</p>
                     <div class="year left-indent white-text"></div>
                 </div>

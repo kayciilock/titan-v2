@@ -1,6 +1,11 @@
 document.querySelectorAll('.entry').forEach((trigger) => {
     trigger.addEventListener('click', () => {
-        const parentEntry = trigger.closest('.entry');
-        parentEntry.classList.toggle('open');
+
+        const currentlyOpen = document.querySelector('.entry.open');
+        if (currentlyOpen && currentlyOpen !== trigger) {
+            currentlyOpen.classList.remove('open');
+        }
+
+        trigger.classList.toggle('open');
     });
 });

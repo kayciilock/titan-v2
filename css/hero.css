@@ -72,6 +72,10 @@
     background-image: url(../images/hero/titan-sliders.webp);
 }
 
+.titan-bifolds.hero {
+    background-image: url(../images/hero/titan-bifolds.webp);
+}
+
 .doorware.hero {
     background-image: url(../images/hero/doorware.webp);
 }
@@ -84,6 +88,7 @@
 .design-inspirations.hero::before,
 .about-titan.hero::before,
 .titan-sliders.hero::before,
+.titan-bifolds.hero::before,
 .doorware.hero::before {
     content: "";
     position: absolute;

@@ -4,6 +4,11 @@
     position: relative;
 }
 
+.square.medium {
+    max-height: 500px;
+    justify-self: center;
+}
+
 .square.small {
     max-height: 200px;
     border: 1px solid #bdbdbdd2;
@@ -49,8 +54,9 @@
 }
 
 .gif.sect {
-    min-height: 700px;
-    background-size: cover;
+    min-height: 800px;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -65,11 +71,11 @@
 }
 
 .gif.sect.sliding {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/gifs/sliding.gif);
 }
 
 .gif.sect.bifolds {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/gifs/folding.gif);
 }
 
 .preview.one {

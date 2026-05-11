@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="images/logos/favicon.webp" rel="shortcut icon" type="image/x-icon">
+        <link href="images/logos/favicon.webp" rel="apple-touch-icon">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/side.menu.css">
@@ -71,9 +73,9 @@
                                         </div>
                                     </div>
 
-                                    <a href="#">Design Inspirations</a>
-                                    <a href="#">About</a>
-                                    <a href="#">Contact</a>
+                                    <a href="design-inspirations.html">Design Inspirations</a>
+                                    <a href="about-titan.html">About</a>
+                                    <a href="contact-us.html">Contact</a>
                                 </nav>
                             </div>
                         </div>
@@ -144,11 +146,6 @@
 
                     </div>
 
-                    <div class="row width-100 space-between margin-bot-2">
-                        <a href="#form" class="circle scroll-arrow"></a>
-                        <a href="contact-us.html" class="btn">ENQUIRE NOW<div class="right-arrow">⟶</div></a>
-                    </div>
-
                 </div>
 
             </div>
@@ -165,27 +162,37 @@
                     <form id="generalEnquiryForm">
                         <div class="form-row">
                             <div class="form-column">
-                                <label for="name">Full Name</label>
+                                <label for="firstName">Full Name</label>
                                 <input 
                                     type="text" 
-                                    id="name" 
-                                    name="name" 
-                                    placeholder="Jean Nouvel" 
-                                    required 
-                                    aria-required="true"
+                                    id="firstName" 
+                                    name="firstName"
+                                    placeholder="Your Name" 
+                                    required
+                                    maxlength="40"
                                     minlength="2"
-                                    maxlength="50"
-                                    autocomplete="name">
+                                    autocomplete="given-name"
+                                    inputmode="text"
+                                    pattern="^[A-Za-z][A-Za-z' -]{0,38}[A-Za-z]$"
+                                    title="Use letters only (spaces, hyphens, apostrophes allowed)."
+                                    autocomplete="given-name">
                             </div>
                             <div class="form-column">
                                 <label for="email">Email Address</label>
                                 <input 
-                                    type="email" 
-                                    id="email" 
-                                    name="email" 
-                                    placeholder="design@studio.com" 
-                                    required 
-                                    aria-required="true"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    type="email"
+                                    id="email"
+                                    required
+                                    maxlength="100"
+                                    minlength="6"
+                                    autocomplete="email"
+                                    inputmode="email"
+                                    spellcheck="false"
+                                    autocapitalize="none"
+                                    pattern="^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?)+$"
+                                    title="Enter a valid email address (e.g., name@example.com)."
                                     autocomplete="email">
                             </div>
                         </div>
@@ -194,11 +201,17 @@
                             <div class="form-column">
                                 <label for="phone">Phone Number (Optional)</label>
                                 <input 
-                                    type="tel" 
-                                    id="phone" 
-                                    name="phone" 
-                                    placeholder="+1 (555) 000-0000"
-                                    pattern="[0-9\-+\s\(\)]+"
+                                    name="phoneNumber"
+                                    placeholder="(XXX) XXX-XXXX"
+                                    type="tel"
+                                    id="phoneNumber"
+                                    required
+                                    maxlength="20"
+                                    minlength="8"
+                                    autocomplete="tel"
+                                    inputmode="tel"
+                                    pattern="^\+?[0-9\s().-]{8,20}$"
+                                    title="Enter a valid phone number (8–20 digits/characters; numbers, spaces, +, (), - only)."
                                     autocomplete="tel">
                             </div>
                             <div class="form-column">
@@ -207,8 +220,54 @@
                                     type="text" 
                                     id="company" 
                                     name="company" 
-                                    placeholder="Architectural Group"
+                                    placeholder="Your Company / Firm"
                                     maxlength="100">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-column">
+                                <label for="phone">Role</label>
+                                <select
+                                  id="userDescription"
+                                  name="userDescription"
+                                  required
+                                  title="Please select your role from the dropdown menu.">
+                                  <option value="">Select One...</option>
+                                  <option value="Fabricator">Fabricator</option>
+                                  <option value="Builder">Builder</option>
+                                  <option value="Architect">Architect</option>
+                                  <option value="Homeowner">Homeowner</option>
+                                  <option value="School">School</option>
+                                  <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-column">
+                                <label for="company">Region</label>
+                                <select
+                                  id="region"
+                                  name="region"
+                                  required
+                                  title="Please select your region from the dropdown menu."
+                                >
+                                  <option value="">Select One...</option>
+                                  <option value="Australasia">
+                                    Australasia
+                                  </option>
+                                  <option value="United Kingdom">
+                                    United Kingdom
+                                  </option>
+                                  <option value="Asia">Asia</option>
+                                  <option value="Europe">Europe</option>
+                                  <option value="North America">
+                                    North America
+                                  </option>
+                                  <option value="South America">
+                                    South America
+                                  </option>
+                                  <option value="Africa">Africa</option>
+                                  <option value="Other">Other</option>
+                                </select>
                             </div>
                         </div>
 
@@ -216,12 +275,16 @@
                             <div class="form-column">
                                 <label for="message">Project Inquiry</label>
                                 <textarea 
-                                    id="message" 
-                                    name="message" 
-                                    placeholder="Describe the scope of your vision..." 
-                                    required 
-                                    minlength="10"
-                                    maxlength="1000"></textarea>
+                                    id="message"
+                                    name="message"
+                                    placeholder="Describe the scope of your vision..."
+                                    required
+                                    minlength="20"
+                                    maxlength="1200"
+                                    autocapitalize="sentences"
+                                    autocomplete="off"
+                                    spellcheck="true"
+                                  ></textarea>
                             </div>
                         </div>
                         <div class="cf-turnstile" data-sitekey="0x4AAAAAACdZSYYTlPK-oIpV"></div>

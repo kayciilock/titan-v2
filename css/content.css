@@ -128,6 +128,10 @@
     background-image: url(../images/icons/building.webp);
 }
 
+.icon.top-hung.dark {
+    background-image: url(../images/icons/top-hung-dark.webp);
+}
+
 .icon.top-hung {
     background-image: url(../images/icons/top-hung.webp);
 }
@@ -140,12 +144,71 @@
     background-image: url(../images/icons/fold.webp);
 }
 
+.icon.fold.dark {
+    background-image: url(../images/icons/fold-dark.webp);
+}
+
 .icon.weather {
     background-image: url(../images/icons/weather.webp);
 }
 
 .icon.durable {
     background-image: url(../images/icons/durable.webp);
+}
+.icon.open.dark {
+    background-image: url(../images/icons/open-dark.webp);
+}
+.icon.open {
+    background-image: url(../images/icons/open.webp);
+}
+
+.icon.space.dark {
+    background-image: url(../images/icons/space-dark.webp);
+}
+.icon.space {
+    background-image: url(../images/icons/space.webp);
+}
+
+.icon.transition.dark {
+    background-image: url(../images/icons/transition-dark.webp);
+}
+.icon.transition {
+    background-image: url(../images/icons/transition.webp);
+}
+
+.icon.light.dark {
+    background-image: url(../images/icons/light-dark.webp);
+}
+.icon.light {
+    background-image: url(../images/icons/light.webp);
+}
+
+.icon.furniture.dark {
+    background-image: url(../images/icons/furniture-dark.webp);
+}
+.icon.furniture {
+    background-image: url(../images/icons/furniture.webp);
+}
+
+.icon.lock.dark {
+    background-image: url(../images/icons/lock-dark.webp);
+}
+.icon.lock {
+    background-image: url(../images/icons/lock.webp);
+}
+
+.icon.globe.dark {
+    background-image: url(../images/icons/globe-dark.webp);
+}
+.icon.globe {
+    background-image: url(../images/icons/globe.webp);
+}
+
+.icon.panoramic.dark {
+    background-image: url(../images/icons/panoramic-dark.webp);
+}
+.icon.panoramic {
+    background-image: url(../images/icons/panoramic.webp);
 }
 
 .point {
@@ -187,6 +250,10 @@
     aspect-ratio: 1/1;
     flex-flow: column;
     gap: 0.5rem;
+}
+
+.box.unset {
+    aspect-ratio: unset;
 }
 
 .box .icon, 
@@ -466,7 +533,7 @@
 }
 
 .content.grey {
-    background-color: #5353535e;
+    background-color: #535353c9;
 }
 
 .content.dark-grey {
@@ -500,6 +567,14 @@
 
 .product-cta.a100{
     background-image: url(../images/systems/a100.webp);
+}
+
+.product-cta.more-bifolds{
+    background-image: url(../images/systems/more-bifolds.webp);
+}
+
+.product-cta.more-sliders{
+    background-image: url(../images/systems/more-sliders.webp);
 }
 
 .product-cta > * {

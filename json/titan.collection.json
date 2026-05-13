@@ -4,7 +4,7 @@
         "title": "Heavy Duty Top Track",
         "description": "A robust overhead track designed to support and guide heavy panels, delivering smooth operation and lasting reliability for sliding or folding doors.",
         "longDescription": "The Heavy Duty Top Track delivers robust support and smooth operation for large sliding or folding panels, ensuring reliable performance and lasting durability in both residential and commercial applications.",
-        "categories": ["t100"],
+        "categories": ["t100", "a100", "t350"],
         "image": "images/products/2921-013.webp",
         "finish": "Natural Anodised 20um",
         "extrusionLength": "5800mm",
@@ -18,7 +18,7 @@
         "drawings": [
             "images/drawings/2921-013.webp"
         ],
-        "tags": ["T100"]
+        "tags": ["T100", "A100", "T350"]
     },
     {
         "id": "2935-103",
@@ -103,7 +103,7 @@
         "id": "3099-071",
         "title": "Straight Slider Track Stop",
         "description": "Securely limit panel movement and ensure precise stopping points on straight slider tracks, enhancing the safety and functionality of sliding door systems.",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "longDescription": "Our Straight Slider Track Stop is expertly designed to provide a safe, reliable stopping point for straight sliding door systems. This essential component ensures your sliding panels come to a precise halt, protecting both the door and the surrounding structure from damage. Built from high-quality, durable materials, our track stop guarantees smooth operation and long-lasting performance, whether used in residential or commercial applications. ",
         "categories": ["t350"],
         "image": "images/products/3099-071.webp",
         "material": "SS",
@@ -164,7 +164,7 @@
         "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
         "categories": ["t100", "a100"],
         "image": "images/products/3910-073.webp",
-        "finish": "Lorem",
+        "finish": "Stainless Brushed",
         "features": [
         "Sleek Bearing and robust construction",
         "Stainless Steel thrust bearing for smooth operation at high loads (only part of Titan SD [Stainless Steel] and HD systems)"
@@ -220,7 +220,7 @@
         "title": "Titan Intermediate Carrier Set - Bottom",
         "description": "Supports and guides the movement of intermediate door panels at the bottom track, ensuring smooth and stable operation in bifold or sliding door systems.",
         "longDescription": "The Titan bifold system presents an exciting collection of heavy-duty yet aesthetically striking hardware that is designed to not only conquer the challenges of day-to-day use, but to simplify the task of installation.",
-        "categories": ["t100"],
+        "categories": ["a100"],
         "image": "images/products/3913-078.webp",
         "guidePitch": "33.5",
         "wheel": "26",
@@ -233,7 +233,7 @@
             "images/drawings/3913-076.webp",
             "images/drawings/3913-076-2.webp"
         ],
-        "tags": ["A100"]
+        "tags": ["A100", "A100-Deep"]
     },
     {
         "id": "3914-076",
@@ -258,22 +258,25 @@
     {
         "id": "3914-080",
         "title": "Titan End Carrier Set - Bottom",
-        "description": "Securely support and guide the end panel of a bifold or sliding door system along the bottom track, ensuring smooth movement and reliable long-term performance.",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "description": "Securely support and guide the end panel of a bifold system along the bottom track, ensuring smooth movement and reliable long-term performance.",
+        "longDescription": "Introducing the TITAN End Carrier Set, crafted from premium brushed stainless steel for both durability and sleek aesthetics. Engineered for high-performance sliding door systems, this set features a 33.5mm pitch and 26mm wheel diameter, ensuring smooth, stable movement and precise alignment. With a compact 19mm construction, it’s ideal for robust applications where reliability and a modern finish are essential. Perfect for residential or commercial use, the TITAN End Carrier Set brings lasting strength and effortless functionality to every project.",
         "categories": ["a100"],
         "image": "images/products/3914-078.webp",
         "guidePitch": "33.5",
         "wheel": "26",
+        "material":"SS",
+        "finish": "Stainless Brushed",
+        "c": "19",
         "features": [
         "Heavy / Standard-Duty Bifold door hardware",
         "Easy installation and adjustment",
         "Corrosion resistant finish"
         ],
         "drawings": [
-            "images/drawings/3914-076.webp",
-            "images/drawings/3914-076-2.webp"
+            "images/drawings/3914-080.webp",
+            "images/drawings/3914-080-2.webp"
         ],
-        "tags": ["A100"]
+        "tags": ["A100", "A100-Deep"]
     },
     {
         "id": "3920-073",
@@ -336,14 +339,13 @@
         "id": "8295-071",
         "title": "4 Wheel Carrier - MD/HD",
         "description": "Heavy-Duty carrier designed to provide smooth and stable movement of door panels along the track, ensuring reliable operation in sliding or folding door systems.",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "longDescription": "The 4 Wheel Carrier - MD/HD is a robust solution for straight sliding door systems, expertly crafted with stainless steel and engineered polymer components for superior strength and long-lasting performance. Designed to handle demanding applications, each roller supports up to 175kg, making it ideal for medium to heavy-duty installations. Delivering smooth, quiet operation and outstanding durability, this carrier ensures effortless door movement and reliability in both residential and commercial environments.",
         "categories": ["t350"],
         "image": "images/products/8295-071.webp",
         "material": "SS",
         "wheel": "Engineered Polymer",
         "bearing": "SS",
         "loadRating": "175kg/Roller - Straight Sliding",
-        "finish": "Lorem",
         "features": [
         "Heavy / Standard-Duty Bifold door hardware",
         "Easy installation and adjustment",

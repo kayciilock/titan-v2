@@ -1,3 +1,5 @@
+let currentFilter = 'all';
+
 
 const ctaData = {
     "t100": { text: "Go To T100 Bifolds Page", url: "t100-bifolds.html" },
@@ -79,6 +81,7 @@ function showProductDetails(product) {
         {label: "Used With", value: product.usedWith},
         {label: "Guide Pitch (mm)", value: product.guidePitch},
         {label: "Wheel", value: product.wheel},
+        {label: "Wheel Depth (C)", value: product.c},
         {label: "Bearing", value: product.bearing}
     ];
 
@@ -107,7 +110,7 @@ function showProductDetails(product) {
                     </div>
                 </div>
             </div>
-            <div class="square light-grey-bg">
+            <div class="square light-grey-bg align-self-start">
                 <img src="${product.image}"/>
             </div>
         </div>
@@ -123,9 +126,14 @@ function goBackToGrid() {
     const grid =  document.getElementById('productGrid');
     const infoSection = document.getElementById('productInfo');
 
-    //swap display style
     infoSection.style.display = 'none';
     grid.style.display = 'grid';
+
+    renderCards(currentFilter);
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-filter') === currentFilter);
+    });
 
     //scroll back to top
     const scrollTarget = document.getElementById('collection');
@@ -166,6 +174,11 @@ function setupFilters() {
             button.classList.add('active');
             
             const category = button.getAttribute('data-filter');
+            currentFilter = category;
+
+            document.getElementById('productInfo').style.display = 'none';
+            document.getElementById('productGrid').style.display = 'grid';
+            
             renderCards(category);
             
             if (category === 'all') {

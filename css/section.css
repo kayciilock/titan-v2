@@ -13,6 +13,15 @@ section.info {
     background-color: #ffffff;
 }
 
+section.info.black {
+    background-color: #060606;
+    color: #ffffff;
+}
+
+section.info.grey-def {
+    background-color: #dbdbdb50;
+}
+
 footer {
     border-top: 1px solid #b9b9b9;
     display: flex;

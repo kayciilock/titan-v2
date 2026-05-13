@@ -6,6 +6,16 @@
     justify-content: center;
 }
 
+.dual-grid.reset-align {
+    align-items: unset;
+    justify-content: unset;
+}
+
+.stretch {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 .dual-grid.left-dom {
     grid-template-columns: 3fr 2fr;
 }

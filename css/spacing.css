@@ -33,8 +33,24 @@
     margin-top: 4rem;
 }
 
+.margin-bot-4 {
+    margin-bottom: 4rem;
+}
+
+.margin-bot-8 {
+    margin-bottom: 8rem;
+}
+
 .dual-grid.gap-4 {
     gap: 4rem;
+}
+
+.dual-grid.gap-8 {
+    gap: 8rem;
+}
+
+.gap-2 {
+    gap: 2rem;
 }
 
 .gap-small {
@@ -45,6 +61,10 @@
     gap: 4rem;
 }
 
+.gap-8 {
+    gap: 8rem;
+}
+
 .dual-grid.gap-none {
     gap: 0;
 }
@@ -53,8 +73,16 @@
     width: 100%;
 }
 
+.width-68 {
+    width: 68%;
+}
+
 .min-height-300 {
     min-height: 300px;
+}
+
+.min-height-800 {
+    min-height: 800px;
 }
 
 .width-100vw {
@@ -63,6 +91,14 @@
 
 .margin-bot-2 {
     margin-bottom: 2rem;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.padding-2 {
+    padding: 2rem;
 }
 
 .margin-bot-4 {

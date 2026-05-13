@@ -80,6 +80,10 @@
     background-image: url(../images/hero/doorware.webp);
 }
 
+.contact.hero {
+    background-image: url(../images/hero/contact-hero.webp);
+}
+
 .index.hero::before,
 .t100-bifolds.hero::before,
 .a100-bifolds.hero::before,
@@ -89,7 +93,8 @@
 .about-titan.hero::before,
 .titan-sliders.hero::before,
 .titan-bifolds.hero::before,
-.doorware.hero::before {
+.doorware.hero::before,
+.contact.hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -106,6 +111,11 @@
     justify-content: flex-start;
     gap: 2rem;
     align-items: flex-start;
+}
+
+.hero.content.center {
+    align-items: center;
+    justify-content: center;
 }
 
 .hero.content ul {

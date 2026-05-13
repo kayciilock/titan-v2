@@ -256,6 +256,10 @@
     aspect-ratio: unset;
 }
 
+.box.padding-2 {
+    padding: 2rem;
+}
+
 .box .icon, 
 .box h4, 
 .box .para {
@@ -295,6 +299,10 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.box.white-bg {
+    background-color: #ffffff;
 }
 
 .box.rounded.one {
@@ -558,15 +566,19 @@
 }
 
 .product-cta.t100 {
-    background-image: url(../images/systems/t100.webp);
+    background-image: url(../images/systems/about-titan-cta.webp);
 }
 
 .product-cta.t350{
-    background-image: url(../images/systems/t350.webp);
+    background-image: url(../images/systems/about-titan-cta.webp);
 }
 
 .product-cta.a100{
-    background-image: url(../images/systems/a100.webp);
+    background-image: url(../images/systems/about-titan-cta.webp);
+}
+
+.product-cta.design-inspo{
+    background-image: url(../images/systems/design-inspo-cta.webp);
 }
 
 .product-cta.more-bifolds{
